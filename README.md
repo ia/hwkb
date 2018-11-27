@@ -3,15 +3,15 @@ Obvious notes and trivial scripts related to embedded hardware
 
 ## Content
 
-[README.md](../blob/master/README.md)
+[README.md](../master/README.md)
 	- this file
 
-[LICENSE](../blob/master/LICENSE)
+[LICENSE](../master/LICENSE)
 	- license file
 
-[TODO.md](../blob/master/TODO.md)
+[TODO.md](../master/TODO.md)
 	- todo file
 
-[links.txt](../blob/master/links.txt)
+[links.txt](../master/links.txt)
 	- file with random links which will be re-used/cleaned/added
 
