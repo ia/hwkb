@@ -1,6 +1,6 @@
 # TODO
 
-- add spi_howto.md
+- add spi_faq.md
 - add buspirate_v3.md
 - add ft2232_breakout_board.md
 - add shikra.md
