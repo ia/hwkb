@@ -1,4 +1,3 @@
-https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi
 https://pdf1.alldatasheet.com/datasheet-pdf/view/506494/WINBOND/W25Q128FV.html
 https://datasheet.lcsc.com/szlcsc/Future-Designs-FT232HL_C51997.pdf
 https://int3.cc/products/the-shikra
