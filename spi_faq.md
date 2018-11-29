@@ -14,6 +14,14 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
 `SPI` is used in embedded devices for flash chips usually to store low-level boot stuff such as: pre-compiled proprietary bootloader and its data, `coreboot`, `UEFI`, `u-boot`, etc.  
 
 
+## How to find SPI flash ship on PCB?
+
+ - make visual inspection of a `PCB`(**Printed Circuit Board**)
+ - locate a chip with dimensions around *5mm x 5mm* and **8 pins**
+ - ???
+ - PROFIT!
+
+
 ## How to determine pinouts?
 
 ## How to dump storage?
