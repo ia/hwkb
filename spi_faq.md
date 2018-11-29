@@ -3,10 +3,10 @@
 
 ## What is SPI?
 
-`SPI` stands for `Serial Peripheral Interface`.  
+`SPI` stands for **Serial Peripheral Interface**.  
 `SPI` is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards.  
 
-See [short technical tutorial from `SparkFun`](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi) for some details.  
+See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi) for some details.  
 
 
 ## What is the practical purpose and usage of SPI?
