@@ -17,7 +17,7 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
 ## How to find SPI flash ship on PCB?
 
  - make visual inspection of a `PCB`(**Printed Circuit Board**)
- - locate a chip with dimensions around *5mm x 5mm* and **8 pins**
+ - locate a chip with dimensions around *5 mm x 5 mm* and **8 pins**
  - ???
  - PROFIT!
 
