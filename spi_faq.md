@@ -21,8 +21,7 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
  - ???
  - PROFIT!
 
-![Winbond 25Q32BVSIG 1125](../master/pics/spi_flash.png)
-Format: ![Alt Text](url)
+![Winbond 25Q32BVSIG 1125](../master/pics/spi_flash.png)  
 
 
 ## How to determine pinouts?
