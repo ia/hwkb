@@ -1,8 +1,20 @@
+
+
 # SPI 101 FAQ
 
-1. [What is SPI?](#What is SPI?)
-2. [What is the practical purpose and usage of SPI?](#What is the practical purpose and usage of SPI?)
-3. [How to find SPI flash ship on PCB?](#How to find SPI flash ship on PCB?)
+
+### Contents
+
+ * [What is SPI?](#what-is-spi)
+ * [What is the practical purpose and usage of SPI?](#what-is-the-practical-purpose-and-usage-of-spi)
+ * [How to find SPI flash ship on PCB?](#how-to-find-spi-flash-ship-on-pcb)
+ * [How to determine pinouts?](#how-to-determine-pinouts)
+ * [How to determine suitable voltage?](#how-to-determine-suitable-voltage)
+ * [What is the physical meaning and purpose of each SPI pin?](#what-is-the-physical-meaning-and-purpose-of-each-spi-pin)
+ * [How to dump storage?](#how-to-dump-storage)
+
+
+
 
 ## What is SPI?
 
@@ -12,9 +24,13 @@
 See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi) for some details.  
 
 
+
+
 ## What is the practical purpose and usage of SPI?
 
 `SPI` is used in embedded devices for flash chips usually to store low-level boot stuff such as: pre-compiled proprietary bootloader and its data, `coreboot`, `UEFI`, `u-boot`, etc.  
+
+
 
 
 ## How to find SPI flash ship on PCB?
@@ -25,6 +41,8 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
  - PROFIT!
 
 ![Winbond 25Q32BVSIG 1125](../master/pics/spi_flash.png)  
+
+
 
 
 ## How to determine pinouts?
@@ -48,6 +66,8 @@ Hint: Use "**o**" mark on a chip as a starting point.
 ![Winbond 25Q32BV datasheet pinout](../master/pics/w25q32bv_datasheet_pinout.png)  
 
 
+
+
 ## How to determine suitable voltage?
 
 It's **3.3 V** _usually_. At least that voltage source should be used on the other end when some hardware debugging tool is connected to SPI.  
@@ -56,6 +76,8 @@ However, **it's always better just to make sure** by looking through a datasheet
 ![Winbond 25Q32BV datasheet voltage](../master/pics/w25q32bv_datasheet_voltage.png)  
 
 So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.  
+
+
 
 
 ## What is the physical meaning and purpose of each SPI pin?
@@ -77,9 +99,15 @@ Roughly saying, in short:
 ![Winbond 25Q32BV datasheet pinout info](../master/pics/w25q32bv_datasheet_pinout_info.png)  
 
 
+
+
 ## How to dump storage?
 
+
+
+
 ## TBA
+
 
 ```
                          +----------+
@@ -89,4 +117,7 @@ Roughly saying, in short:
 (color3) GND  | GND  ----|          |----  SI  |  LQ (color6)
                          +----------+
 ```
+
+
+
 
