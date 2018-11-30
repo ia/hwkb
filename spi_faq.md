@@ -45,6 +45,15 @@ Hint: Use "**o**" mark on a chip as a starting point.
 ![Winbond 25Q32BV datasheet pinout](../master/pics/w25q32bv_datasheet_pinout.png)
 
 
+## How to determine suitable voltage?
+
+It's 3.3 V usually. At least that voltage source should be used on the other end when some hardware debugging tool is connected to SPI. However, **it's always better just to make sure** by looking through a datasheet again.
+
+![Winbond 25Q32BV datasheet voltage](../master/pics/w25q32bv_datasheet_voltage.png)
+
+So, for **25Q32BV** it's from 2.7/3.0 to 3.6 V.
+
+
 ## How to dump storage?
 
 ## TBA
