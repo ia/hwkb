@@ -54,6 +54,24 @@ It's 3.3 V usually. At least that voltage source should be used on the other end
 So, for **25Q32BV** it's from 2.7/3.0 to 3.6 V.
 
 
+## What is the physical meaning and purpose of each SPI pin?
+
+Roughly saying, in short:  
+[pin number - datasheet marking (other names) - purpose: short info]
+
+ - **1** - **/CS** / **CS** / **!CE** - _chip select_ **input**: enables and disables device operation
+ - **2** - **DO** / **SO** / **SDO** / **MISO** - _data_ **output**: where data comes out
+ - **3** - **/WP** / **!WP** - _write protect_ **input**: used to prevent the
+ [Status Register](http://www.avrbeginners.net/architecture/spi/spi.html#spsr) from being written
+ - **4** - **GND** - [**ground**](https://en.wikipedia.org/wiki/Ground_(electricity)#Electronics)
+ - **5** - **DI** / **SI** / **SDI** / **MOSI** - _data_ **input**: where data comes in
+ - **6** - **CLK** / **SCK** / **SCLK** - _serial clock_ **input**: provides the timing for serial input and output operations
+ - **7** - **/HOLD** / **!RST** - _hold_ **input**: "pauses" device operation
+ - **8** - **VCC** / **+V** / **VLK** - _power supply_ [**voltage**](https://en.wikipedia.org/wiki/Voltage)
+
+![Winbond 25Q32BV datasheet pinout table](../master/pics/w25q32bv_datasheet_pinout_table.png)  
+![Winbond 25Q32BV datasheet pinout info](../master/pics/w25q32bv_datasheet_pinout_info.png)  
+
 ## How to dump storage?
 
 ## TBA
