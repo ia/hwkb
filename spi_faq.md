@@ -42,16 +42,17 @@ Approximate transcription of the name is:
 
 Hint: Use "**o**" mark on a chip as a starting point.
 
-![Winbond 25Q32BV datasheet pinout](../master/pics/w25q32bv_datasheet_pinout.png)
+![Winbond 25Q32BV datasheet pinout](../master/pics/w25q32bv_datasheet_pinout.png)  
 
 
 ## How to determine suitable voltage?
 
-It's 3.3 V usually. At least that voltage source should be used on the other end when some hardware debugging tool is connected to SPI. However, **it's always better just to make sure** by looking through a datasheet again.
+It's **3.3 V** _usually_. At least that voltage source should be used on the other end when some hardware debugging tool is connected to SPI.  
+However, **it's always better just to make sure** by looking through a datasheet again.  
 
-![Winbond 25Q32BV datasheet voltage](../master/pics/w25q32bv_datasheet_voltage.png)
+![Winbond 25Q32BV datasheet voltage](../master/pics/w25q32bv_datasheet_voltage.png)  
 
-So, for **25Q32BV** it's from 2.7/3.0 to 3.6 V.
+So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.  
 
 
 ## What is the physical meaning and purpose of each SPI pin?
@@ -71,6 +72,7 @@ Roughly saying, in short:
 
 ![Winbond 25Q32BV datasheet pinout table](../master/pics/w25q32bv_datasheet_pinout_table.png)  
 ![Winbond 25Q32BV datasheet pinout info](../master/pics/w25q32bv_datasheet_pinout_info.png)  
+
 
 ## How to dump storage?
 
