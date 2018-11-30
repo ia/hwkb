@@ -1,5 +1,8 @@
 # SPI 101 FAQ
 
+1. [What is SPI?](#What is SPI?)
+2. [What is the practical purpose and usage of SPI?](#What is the practical purpose and usage of SPI?)
+3. [How to find SPI flash ship on PCB?](#How to find SPI flash ship on PCB?)
 
 ## What is SPI?
 
