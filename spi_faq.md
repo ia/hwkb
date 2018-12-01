@@ -114,7 +114,7 @@ Roughly saying, in short:
 
 ### Software
 
-Install `[flashrom]`(https://www.flashrom.org/Flashrom).
+Install [`flashrom`](https://www.flashrom.org/Flashrom).
 
 
 ### Hardware
