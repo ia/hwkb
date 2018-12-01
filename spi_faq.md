@@ -119,7 +119,7 @@ Install [`flashrom`](https://www.flashrom.org/Flashrom).
 
 ### Hardware
 
-Get one of SPI-to-USB hardware tools:
+Get one of `SPI-to-USB` hardware tools:
  * [BusPirate](http://dangerousprototypes.com/docs/Bus_Pirate_v3.6)
  * [Shikra](https://int3.cc/products/the-shikra)
  * [FT2232](https://www.ftdichip.com/Products/ICs/FT2232H.html)-based [breakout board](http://dangerousprototypes.com/docs/FT2232_breakout_board)
