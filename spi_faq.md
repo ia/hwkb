@@ -93,7 +93,9 @@ So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.
 Roughly saying, in short:  
 [pin number - datasheet marking (other names) - purpose: short info]
 
- - **1** - **/CS** / **CS** / **!CE** - _chip select_ **input**: enables and disables device operation
+ - **1** - **/CS** / **!CE** / **CS** / **SS**
+    - _chip select_ **input**: enables and disables device operation
+    - _slave select_ **output**: controls other SPI devices connected to the same bus
  - **2** - **DO** / **SO** / **SDO** / **MISO** - _data_ **output**: where data comes out (**Master In/Slave Out**)
  - **3** - **/WP** / **!WP** - _write protect_ **input**: used to prevent the
  [Status Register](http://www.avrbeginners.net/architecture/spi/spi.html#spsr) from being written
