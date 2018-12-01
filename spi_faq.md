@@ -28,7 +28,12 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
 
 ## What is the practical purpose and usage of SPI?
 
-`SPI` is used in embedded devices for flash chips usually to store low-level boot stuff such as: pre-compiled proprietary bootloader and its data, `coreboot`, `UEFI`, `u-boot`, etc.  
+`SPI` is used in embedded devices for flash chips usually to store low-level boot stuff such as:
+ - pre-compiled proprietary bootloader and its data
+ - `UEFI`
+ - `u-boot`
+ - `coreboot`
+ - etc.  
 
 
 
