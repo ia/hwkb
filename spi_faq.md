@@ -11,7 +11,10 @@
  * [How to determine pinouts?](#how-to-determine-pinouts)
  * [How to determine suitable voltage?](#how-to-determine-suitable-voltage)
  * [What is the physical meaning and purpose of each SPI pin?](#what-is-the-physical-meaning-and-purpose-of-each-spi-pin)
- * [How to dump storage?](#how-to-dump-storage)
+ * [How to dump SPI flash storage?](#how-to-dump-spi-flash-storage)
+ * [What is the purpose of dumping SPI flash?](#what-is-the-purpose-of-dumping-spi-flash)
+ * [How SPI flash image can be analyzed?](#how-spi-flash-image-can-be-analyzed)
+
 
 
 
@@ -106,13 +109,9 @@ Roughly saying, in short:
 
 
 
-## How to dump storage?
+## How to dump SPI flash storage?
 
-
-
-
-## TBA
-
+### TBA
 
 ```
                          +----------+
@@ -122,6 +121,20 @@ Roughly saying, in short:
 (color3) GND  | GND  ----|          |----  SI  |  LQ (color6)
                          +----------+
 ```
+
+
+
+
+## What is the purpose of dumping SPI flash?
+
+### TBA
+
+
+
+
+## How SPI flash image can be analyzed?
+
+### TBA
 
 
 
