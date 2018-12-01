@@ -96,14 +96,21 @@ Roughly saying, in short:
  - **1** - **/CS** / **!CE** / **CS** / **SS**
     - _chip select_ **input**: enables and disables device operation
     - _slave select_ **output**: controls other SPI devices connected to the same bus
- - **2** - **DO** / **SO** / **SDO** / **MISO** - _data_ **output**: where data comes out (**Master In/Slave Out**)
- - **3** - **/WP** / **!WP** - _write protect_ **input**: used to prevent the
+ - **2** - **DO** / **SO** / **SDO** / **MISO**
+    - _data_ **output**: where data comes out (**Master In/Slave Out**)
+ - **3** - **/WP** / **!WP**
+    - _write protect_ **input**: used to prevent the
  [Status Register](http://www.avrbeginners.net/architecture/spi/spi.html#spsr) from being written
- - **4** - **GND** - [**ground**](https://en.wikipedia.org/wiki/Ground_(electricity)#Electronics)
- - **5** - **DI** / **SI** / **SDI** / **MOSI** - _data_ **input**: where data comes in (**Master Out/Slave In**)
- - **6** - **CLK** / **SCK** / **SCLK** - _serial clock_ **input**: provides the timing for serial input and output operations
- - **7** - **/HOLD** / **!RST** - _hold_ **input**: "pauses" device operation
- - **8** - **VCC** / **+V** / **VLK** - _power supply_ [**voltage**](https://en.wikipedia.org/wiki/Voltage)
+ - **4** - **GND**
+    - [**ground**](https://en.wikipedia.org/wiki/Ground_(electricity)#Electronics)
+ - **5** - **DI** / **SI** / **SDI** / **MOSI**
+    - _data_ **input**: where data comes in (**Master Out/Slave In**)
+ - **6** - **CLK** / **SCK** / **SCLK**
+    - _serial clock_ **input**: provides the timing for serial input and output operations
+ - **7** - **/HOLD** / **!RST**
+    - _hold_ **input**: "pauses" device operation
+ - **8** - **VCC** / **+V** / **VLK**
+    - _power supply_ [**voltage**](https://en.wikipedia.org/wiki/Voltage)
 
 ![Winbond 25Q32BV datasheet pinout table](../master/pics/w25q32bv_datasheet_pinout_table.png)  
 ![Winbond 25Q32BV datasheet pinout info](../master/pics/w25q32bv_datasheet_pinout_info.png)  
