@@ -136,15 +136,20 @@ Get one of `SPI-to-USB` hardware tools:
 
 ### Wiring
 
+Connect related pins from a board to SPI chip in the following way:
+```
+                    +----------+
+  CS pin | /CS  -~~-| o        |----  VCC | 3.3 voltage pin
+MOSI pin |  DO  ->>-|          |---- /HOLD
+           /WP  ----|          |-_-_  CLK |  CLK pin
+ GND pin | GND  3>--|          |->>-  DI  |  MISO pin
+                    +----------+
+```
 
-```
-                         +----------+
-(color1) XN   | !CE  ----| o        |----   +V | 3v3 (color4)
-(color2) YM   |  SO  ----|          |---- !RST
-                !WP  ----|          |----  SCK |  KP (color5)
-(color3) GND  | GND  ----|          |----  SI  |  LQ (color6)
-                         +----------+
-```
+**WARNINGS**:
+ - **DO NOT CONNECT TO PINS OF SPI CHIP FROM MOTHERBOARD WHEN MOTHERBOARD IS POWERED ON**
+ - **DO NOT CONNECT TO VOLTAGE PIN OF SPI CHIP FROM LAPTOP MOTHERBOARD WHEN BATTERY IS CONNECTED**
+
 
 ### Putting it all together
 
