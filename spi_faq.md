@@ -30,9 +30,9 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
 
 `SPI` is used in embedded devices for flash chips usually to store low-level boot stuff such as:
  - pre-compiled proprietary bootloader and its data
- - `UEFI`
- - `u-boot`
- - `coreboot`
+ - [`UEFI`](https://www.uefi.org)
+ - [`u-boot`](https://www.denx.de/wiki/U-Boot)
+ - [`coreboot`](https://coreboot.org/)
  - etc.  
 
 
