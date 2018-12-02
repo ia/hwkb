@@ -153,7 +153,20 @@ MOSI pin |  DO  ->>-| 2      7 |---- /HOLD
 
 ### Putting it all together
 
-#### TBA
+ - turn off a target device
+ - **disconnect any power source**:
+    - **unplug AC adapter** (if any)
+    - **disconnect battery** (if applicable)
+ - connect pins from debug board to SPI chip on target device according to the scheme above
+ - plug in debug board to PC
+ - run `flashrom` in dummy mode to verify wiring:
+```
+$ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS]
+```
+ - run `flashrom` to dump memory (depending on hardware type it may required some time):
+```
+$ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
+```
 
 
 
