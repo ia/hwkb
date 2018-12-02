@@ -173,7 +173,13 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
 
 ## What is the purpose of dumping SPI flash?
 
-### TBA
+ - backup firmware in case if you're going to experiment with "BIOS"/bootloader updates/reflashing
+ - firmware research and development:
+    - flashing
+    - testing
+    - debugging
+    - analyzing
+    - reverse engineering
 
 
 
