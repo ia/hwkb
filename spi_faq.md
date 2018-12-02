@@ -139,10 +139,10 @@ Get one of `SPI-to-USB` hardware tools:
 Connect related pins from a board to SPI chip in the following way:
 ```
                     +----------+
-  CS pin | /CS  -~~-| o        |----  VCC | 3.3 voltage pin
-MOSI pin |  DO  ->>-|          |---- /HOLD
-           /WP  ----|          |-_-_  CLK |  CLK pin
- GND pin | GND  3>--|          |->>-  DI  |  MISO pin
+  CS pin | /CS  -~~-| o      8 |----  VCC | 3.3 voltage pin
+MOSI pin |  DO  ->>-| 2      7 |---- /HOLD
+           /WP  ----| 3      6 |-_-_  CLK |  CLK pin
+ GND pin | GND  3>--| 4      5 |->>-  DI  |  MISO pin
                     +----------+
 ```
 
