@@ -15,10 +15,11 @@ GND 18          - 4 GND
 
 
 
-## flashrom notes
+## Software notes
 
+ - `flashrom` usage:
 ```
-flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
+$ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 ```
 
 
