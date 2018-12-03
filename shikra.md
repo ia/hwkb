@@ -37,8 +37,9 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 ## Additional links
 
- - [shop](https://int3.cc/products/the-shikra)
+ - [Shop](https://int3.cc/products/the-shikra)
  - [Using the Shikra to Attack Embedded Systems: Getting Started](https://www.xipiter.com/musings/using-the-shikra-to-attack-embedded-systems-getting-started)
+ - [Programming the Shikra](https://www.xipiter.com/musings/programming-the-shikra)
 
 
 
