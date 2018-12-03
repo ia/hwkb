@@ -203,6 +203,7 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
  - [`file`](http://man7.org/linux/man-pages/man1/file.1.html)
  - [`hexdump`](http://man7.org/linux/man-pages/man1/hexdump.1.html)
  - [`binwalk`](https://github.com/ReFirmLabs/binwalk)
+ - [`fwtools`](https://github.com/flammit/fwtools)
  - [`UEFITool`](https://github.com/LongSoft/UEFITool)
 
 
