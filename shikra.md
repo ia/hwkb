@@ -12,7 +12,7 @@
 |  3  |     SDO    | ADBUS2 | 5: MOSI |
 |  4  |     *CS    | ADBUS3 | 1:  /CS |
 |  5  |     +V?    | ADBUS4 | 8:  VCC |
-| 18  |     GND    | ADBUS  | 4:  GND |
+| 18  |     GND    |        | 4:  GND |
 
 
 
