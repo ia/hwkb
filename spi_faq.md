@@ -90,8 +90,22 @@ So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.
 
 ## What is the physical meaning and purpose of each SPI pin?
 
-Roughly saying, in short:  
-[pin number - datasheet marking (other names) - purpose: short info]
+
+### Pins table
+
+| pin |  name  |      other names     |
+|:---:|--------|----------------------|
+|  1  |   /CS  |  !CE  /  CS  / SS    |
+|  2  |    DO  |   SO  /  SDO / MISO  |
+|  3  |   /WP  |  !WP                 |
+|  4  |   GND  |                      |
+|  5  |    DI  |   SI  /  SDI / MOSI  |
+|  6  |   CLK  |  SCK  / SCLK         |
+|  7  | /HOLD  | !RST                 |
+|  8  |   VCC  |    +V / VLK          |
+
+
+### Pins notes
 
  - **1** - **/CS** / **!CE** / **CS** / **SS**
     - _chip select_ **input**: enables and disables device operation
