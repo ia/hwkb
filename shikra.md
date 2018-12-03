@@ -14,6 +14,8 @@
 |  5  |     +V?    | ADBUS4 | 8:  VCC |
 | 18  |     GND    |        | 4:  GND |
 
+![shikra pinout](../master/pics/shikra_pinout.png)  
+
 
 
 
