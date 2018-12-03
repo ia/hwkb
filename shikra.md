@@ -5,12 +5,14 @@
 
 ## Pinouts
 
-SCK  1  ADBUS0  - 6 CLK
-SDI  2  ADBUS1  - 2 MISO
-SDO  3  ADBUS2  - 5 MOSI
-*CS  4  ADBUS3  - 1 /CS
-V+?  5  ADBUS4  - 8 VCC
-GND 18          - 4 GND
+| pin | shikra/spi | ft232h | spi pin |
+|:---:|------------|--------|---------|
+|  1  |     SCK    | ADBUS0 | 6:  CLK |
+|  2  |     SDI    | ADBUS1 | 2: MISO |
+|  3  |     SDO    | ADBUS2 | 5: MOSI |
+|  4  |     *CS    | ADBUS3 | 1:  /CS |
+|  5  |     +V?    | ADBUS4 | 8:  VCC |
+| 18  |     GND    | ADBUS  | 4:  GND |
 
 
 
