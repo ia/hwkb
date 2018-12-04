@@ -3,7 +3,7 @@
 # Shikra
 
 
-![shikra pinout](../master/pics/shikra_pinout.png)  
+![shikra pinout](../master/resources/shikra_pinout.png)  
 
 
 ## Pinouts

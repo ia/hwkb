@@ -48,7 +48,7 @@ See [short technical tutorial from _SparkFun_](https://learn.sparkfun.com/tutori
  - ???
  - PROFIT!
 
-![Winbond 25Q32BVSIG 1125](../master/pics/spi_flash.png)  
+![Winbond 25Q32BVSIG 1125](../master/resources/spi_flash.png)  
 
 
 
@@ -71,7 +71,7 @@ Approximate transcription of the name is:
 
 Hint: Use "**o**" mark on a chip as a starting point.
 
-![Winbond 25Q32BV datasheet pinout](../master/pics/w25q32bv_datasheet_pinout.png)  
+![Winbond 25Q32BV datasheet pinout](../master/resources/w25q32bv_datasheet_pinout.png)  
 
 
 
@@ -81,7 +81,7 @@ Hint: Use "**o**" mark on a chip as a starting point.
 It's **3.3 V** _usually_. At least that voltage source should be used on the other end when some hardware debugging tool is connected to SPI.  
 However, **it's always better just to make sure** by looking through a datasheet again.  
 
-![Winbond 25Q32BV datasheet voltage](../master/pics/w25q32bv_datasheet_voltage.png)  
+![Winbond 25Q32BV datasheet voltage](../master/resources/w25q32bv_datasheet_voltage.png)  
 
 So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.  
 
@@ -126,8 +126,8 @@ So, for **25Q32BV** it's from **2.7**/**3.0** to **3.6** V.
  - **8** - **VCC**
     - _power supply_ [**voltage**](https://en.wikipedia.org/wiki/Voltage)
 
-![Winbond 25Q32BV datasheet pinout table](../master/pics/w25q32bv_datasheet_pinout_table.png)  
-![Winbond 25Q32BV datasheet pinout info](../master/pics/w25q32bv_datasheet_pinout_info.png)  
+![Winbond 25Q32BV datasheet pinout table](../master/resources/w25q32bv_datasheet_pinout_table.png)  
+![Winbond 25Q32BV datasheet pinout info](../master/resources/w25q32bv_datasheet_pinout_info.png)  
 
 
 
