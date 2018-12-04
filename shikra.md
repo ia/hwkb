@@ -20,8 +20,6 @@
 
 
 
-
-
 ## Software notes
 
  - `flashrom` usage:
