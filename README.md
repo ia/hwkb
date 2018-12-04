@@ -1,13 +1,32 @@
+
+
 # hw_notes
+
+
 Obvious notes and trivial scripts related to embedded hardware
 
-## Content
+
+
+
+## Contents
+
+
+### Interfaces & Protocols
+
+ - [SPI 101 FAQ](../master/spi_faq.md)
+
+
+### Hardware tools
+
+ - [Shikra](../master/shikra.md)
+
+
+
+
+## Additional files
 
 [README.md](../master/README.md)
 	- this file
-
-[spi_faq.md](../master/spi_faq.md)
-	- SPI 101 FAQ
 
 [LICENSE](../master/LICENSE)
 	- license file
@@ -17,4 +36,7 @@ Obvious notes and trivial scripts related to embedded hardware
 
 [links.txt](../master/links.txt)
 	- file with random links which will be re-used/cleaned/added
+
+
+
 
