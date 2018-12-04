@@ -34,9 +34,9 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
  - labeled chip: **FT232HL**
  - [data sheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf)
- - **FT232H** pinout info:
+ - **FT232H** pinout table:
 
-![shikra pinout](../master/resources/.png)  
+![ft232h DS pinout](../master/resources/ft232h_datasheet_pinout_table.png)  
 
 
 
