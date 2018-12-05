@@ -38,6 +38,10 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 ![ft232h DS pinout](../master/resources/ft232h_datasheet_pinout_table.png)  
 
+ - **Shikra** schematic:
+
+![Shikra schematic](../master/resources/shikra_schematic.png)  
+
 
 
 
