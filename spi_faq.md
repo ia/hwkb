@@ -147,7 +147,7 @@ Get one of `USB-to-SPI` hardware tools:
  * [HydraBus](https://hydrabus.com)
  * [Shikra](https://int3.cc/products/the-shikra)
  * [FT2232](https://www.ftdichip.com/Products/ICs/FT2232H.html)-based [breakout board](http://dangerousprototypes.com/docs/FT2232_breakout_board)
-
+ * ... or even [`Arduino`-based board](https://tomvanveen.eu/flashing-bios-chip-arduino/)!
 
 ### Wiring
 
