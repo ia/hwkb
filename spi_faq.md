@@ -200,7 +200,7 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
 
 ## How SPI flash image can be analyzed?
 
- - [`file`](http://man7.org/linux/man-pages/man1/file.1.html)
+ - [`strings`](http://man7.org/linux/man-pages/man1/strings.1.html)
  - [`hexdump`](http://man7.org/linux/man-pages/man1/hexdump.1.html)
  - [`binwalk`](https://github.com/ReFirmLabs/binwalk)
  - [`fwtools`](https://github.com/flammit/fwtools)
