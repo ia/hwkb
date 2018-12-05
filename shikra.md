@@ -17,7 +17,7 @@
 |  5  |     +V?    | ADBUS4 | 8:  VCC |
 | 18  |     GND    |        | 4:  GND |
 
-
+[Official documentation](../master/resources/shikra_documentation.pdf).  
 
 
 ## Software notes
