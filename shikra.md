@@ -6,6 +6,16 @@
 ![shikra pinout](../master/resources/shikra_pinout.png)  
 
 
+### Contents
+
+ * [Pinouts](#pinouts)
+ * [Software notes](#software-notes)
+ * [Hardware info](#hardware-info)
+ * [Additional links](#additional-links)
+
+
+
+
 ## Pinouts
 
 | pin | shikra/uart | shikra/jtag | shikra/spi |   ft232h   | spi pin |
