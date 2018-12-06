@@ -25,14 +25,14 @@ Obvious notes and trivial scripts related to embedded hardware
 
 ## Additional files
 
+[TODO.md](../master/TODO.md)
+	- todo file
+
 [README.md](../master/README.md)
 	- this file
 
 [LICENSE](../master/LICENSE)
 	- license file
-
-[TODO.md](../master/TODO.md)
-	- todo file
 
 
 
