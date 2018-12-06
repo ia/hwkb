@@ -34,7 +34,8 @@
 
 ## Software notes
 
- - `flashrom` usage:
+ - [shikra EEPROM programming utility](https://github.com/Xipiter/shikra-programmer)
+ - `flashrom` usage (dump flash):
 ```
 $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 ```
