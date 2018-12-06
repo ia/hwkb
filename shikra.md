@@ -8,14 +8,26 @@
 
 ## Pinouts
 
-| pin | shikra/spi | ft232h | spi pin |
-|:---:|------------|--------|---------|
-|  1  |     SCK    | ADBUS0 | 6:  CLK |
-|  2  |     SDI    | ADBUS1 | 2: MISO |
-|  3  |     SDO    | ADBUS2 | 5: MOSI |
-|  4  |     *CS    | ADBUS3 | 1:  /CS |
-|  5  |     +V?    | ADBUS4 | 8:  VCC |
-| 18  |     GND    |        | 4:  GND |
+| pin | shikra/uart | shikra/jtag | shikra/spi |   ft232h   | spi pin |
+|:---:|-------------|-------------|------------|------------|---------|
+|  1  |      TX     |     TCK     |     SCK    | 13: ADBUS0 | 6:  CLK |
+|  2  |      RX     |     TDI     |     SDI    | 14: ADBUS1 | 2: MISO |
+|  3  |             |     TDO     |     SDO    | 15: ADBUS2 | 5: MOSI |
+|  4  |             |     TMS     |     *CS    | 16: ADBUS3 | 1:  /CS |
+|  5  |             |             |            | 17: ADBUS4 |         |
+|  6  |             |             |            | 18: ADBUS5 |         |
+|  7  |             |             |            | 19: ADBUS6 |         |
+|  8  |             |             |            | 20: ADBUS7 |         |
+|  9  |             |             |            | 21: ACBUS0 |         |
+| 10  |             |             |            | 25: ACBUS1 |         |
+| 11  |             |             |            | 26: ACBUS2 |         |
+| 12  |             |             |            | 27: ACBUS3 |         |
+| 13  |             |             |            | 28: ACBUS4 |         |
+| 14  |             |             |            | 29: ACBUS5 |         |
+| 15  |             |             |            | 30: ACBUS6 |         |
+| 16  |             |             |            | 31: ACBUS7 |         |
+| 17  |             |             |            | 32: ACBUS8 |         |
+| 18  |     GND     |     GND     |     GND    | --: ------ |   GND   |
 
 [Official documentation](../master/resources/shikra_documentation.pdf).  
 
