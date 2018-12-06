@@ -18,7 +18,6 @@
 
 
 
-
 ## What is SPI?
 
 `SPI` stands for **Serial Peripheral Interface**.  
