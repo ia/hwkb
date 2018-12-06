@@ -34,9 +34,6 @@ Obvious notes and trivial scripts related to embedded hardware
 [TODO.md](../master/TODO.md)
 	- todo file
 
-[links.txt](../master/links.txt)
-	- file with random links which will be re-used/cleaned/added
-
 
 
 
