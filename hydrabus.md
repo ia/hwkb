@@ -9,16 +9,16 @@
 ### Contents
 
 
- * [Pinouts](#pinouts)
-  ** [PA-J2](#pa-j2)
-  ** [PB-J1](#pb-j1)
-  ** [PC-J3](#pc-j3)
- * [Getting started](#getting-started)
-  ** [Prepare environment](#prepare-environment)
-  ** [Update firmware](#update-firmware)
-  ** [Build firmware](#build-firmware)
+  * [Pinouts](#pinouts)
+    * [PA-J2](#pa-j2)
+    * [PB-J1](#pb-j1)
+    * [PC-J3](#pc-j3)
+  * [Getting started](#getting-started)
+    * [Prepare environment](#prepare-environment)
+    * [Update firmware](#update-firmware)
+    * [Build firmware](#build-firmware)
  * [Basic operations](#basic-operations)
-  ** [Dump SPI flash](#dump-spi-flash)
+    * [Dump SPI flash](#dump-spi-flash)
  * [Hardware info](#hardware-info)
  * [Additional links](#additional-links) 
 
@@ -108,7 +108,7 @@ $ sudo apt install picocom python-serial dfu-util
 
 ### Dump SPI flash
 
- - 
+ - connect TBA PINS
  - `flashrom` usage (dump flash):
 ```
 $ flashrom -p TBA -r OUTPUT_FILE
