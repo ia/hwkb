@@ -57,7 +57,16 @@
 ### PC-J3
 
 
-TBA
+|            |  <<<<==== | PC/left | PC/right | ====>>>>   |         |
+|:----------:|-----------|---------|----------|------------|---------|
+|            | SUMP CH 0 |   PC0   |   PC15   | SUMP CH  8 |         |
+| SPI2 CS    | SUMP CH 1 |   PC1   |   PC14   | SUMP CH  9 |         |
+| SPI2 MISO  | SUMP CH 2 |   PC2   |   PC13   | SUMP CH 10 |         |
+| SPI2 MOSI  | SUMP CH 3 |   PC3   |   PC12   | SUMP CH 11 | SDIO CK |
+|            | SUMP CH 4 |   PC4   |   PC11   | SUMP CH 12 | SDIO D3 |
+|            | SUMP CH 5 |   PC5   |   PC10   | SUMP CH 13 | SDIO D2 |
+| Freq.count | SUMP CH 6 |   PC6   |   PC9    | SUMP CH 14 | SDIO D1 |
+|            | SUMP CH 7 |   PC7   |   PC8    | SUMP CH 15 | SDIO D0 |
 
 
 ## Getting started
