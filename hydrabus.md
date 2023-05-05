@@ -108,7 +108,7 @@ TBA
 
  - install helpful packages:
 ```
-$ sudo apt install picocom python-serial dfu-util
+$ sudo apt install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
 ```
 
 
