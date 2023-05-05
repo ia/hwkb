@@ -13,6 +13,7 @@
     * [PA-J2](#pa-j2)
     * [PB-J1](#pb-j1)
     * [PC-J3](#pc-j3)
+    * [SWD_DEBUG](#swd_debug)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
@@ -67,6 +68,19 @@
 |            | SUMP CH 5 |   PC5   |   PC10   | SUMP CH 13 | SDIO D2 |
 | Freq.count | SUMP CH 6 |   PC6   |   PC9    | SUMP CH 14 | SDIO D1 |
 |            | SUMP CH 7 |   PC7   |   PC8    | SUMP CH 15 | SDIO D0 |
+
+
+### SWD_DEBUG
+
+
+| pin |  SWD  | note |
+|:---:|-------|------|
+|  1  | +3V3  |      |
+|  2  | SWCLK | PA14 |
+|  3  | GND   |      |
+|  4  | SWDIO | PA13 |
+|  5  | NRST  |      |
+|  6  | NC    |      |
 
 
 ## Getting started
