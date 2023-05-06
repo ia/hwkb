@@ -91,7 +91,7 @@ Express tutorials for GnuLinux/Ubuntu box
 
 ### Prepare environment
 
- - add a current user to `dialout` group for tty device access without `sudo`(root):
+ - add a current user to `dialout` group for tty device access without `sudo` (root):
 ```
 $ sudo  gpasswd  -a ${USER}  dialout
 ```
@@ -102,7 +102,10 @@ $ sudo  usermod  -a  -G dialout  ${USER}
 
  - add a line like this to `/etc/udev/rules.d/99-usb.rules` for permanent name in `/dev`:
 ```
-TBA
+
+# Hydrabus board
+SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVendor}=="1d50", ATTRS{product}=="HydraBus 1.0 COM Port1", ATTRS{removable}=="removable", ATTRS{version}==" 1.10", SYMLINK+="hydrabus"
+
 ```
 
  - restart `udev` to apply changes:
