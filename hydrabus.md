@@ -20,6 +20,7 @@
     * [Build firmware](#build-firmware)
  * [Basic operations](#basic-operations)
     * [Dump SPI flash](#dump-spi-flash)
+    * [Logic analyzer](#logic-analyzer)
  * [Hardware info](#hardware-info)
  * [Additional links](#additional-links) 
 
@@ -145,6 +146,9 @@ $ flashrom -p TBA -r OUTPUT_FILE
 ```
 
 
+### Logic analyzer
+
+ - TBA
 
 
 ## Hardware info
