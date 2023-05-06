@@ -25,6 +25,8 @@
  * [Additional links](#additional-links) 
 
 
+
+
 ## Pinouts
 
 
@@ -84,6 +86,8 @@
 |  6  | NC    |      |
 
 
+
+
 ## Getting started
 
 
@@ -128,8 +132,25 @@ $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  si
 
 ### Build firmware
 
- - download source
- - TBA
+ - download firmware source and 3rd party components (chibios, tokenline & python-hydrabus):
+```
+$ git  clone  git@ssh.github.com:hydrabus/hydrafw.git
+$ cd  hydrafw
+$ git  submodule  init
+$ git  submodule  update
+```
+
+ - (optionally) create a separate local branch for experiments before building:
+```
+$ git  checkout  -b 0.11-local  v0.11
+```
+
+ - build local firmware:
+```
+$ cd  src
+$ make  clean
+$ make
+```
 
 
 
@@ -149,6 +170,8 @@ $ flashrom -p TBA -r OUTPUT_FILE
 ### Logic analyzer
 
  - TBA
+
+
 
 
 ## Hardware info
