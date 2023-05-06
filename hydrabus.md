@@ -93,22 +93,26 @@ Express tutorials for GnuLinux/Ubuntu box
 
  - add a current user to `dialout` group for tty device access without `sudo`(root):
 ```
-$ sudo TBA
+$ sudo  gpasswd  -a ${USER}  dialout
+```
+or
+```
+$ sudo  usermod  -a  -G dialout  ${USER}
 ```
 
- - add a line like this to `/etc/udev/rules.d/99-user.rules` for permanent name in `/dev`:
+ - add a line like this to `/etc/udev/rules.d/99-usb.rules` for permanent name in `/dev`:
 ```
 TBA
 ```
 
  - restart `udev` to apply changes:
 ```
-TBA
+$ sudo  udevadm  control  --reload-rules  &&  sudo  udevadm  trigger
 ```
 
  - install helpful packages:
 ```
-$ sudo apt install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
+$ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
 ```
 
 
