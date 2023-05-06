@@ -127,11 +127,11 @@ $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  si
 ### Update firmware
 
  - put the device into DFU mode - the most reliable way:
-  * connect the device to host: two green LEDs will be on, one user LED will be blinking
-  * press & **HOLD** the **user button** (closest to microUSB port): one user LED will be blinking faster
-  * keep **HOLDING** the **user button** and press **reset button** keep holding the **user button**
-  * release both buttons: now the device should be in DFU mode, two green LEDs will be on, one **user LED** will be **OFF**
-  * check DFU mode using `dfu-util`:
+    * connect the device to host: two green LEDs will be on, one user LED will be blinking
+    * press & **HOLD** the **user button** (closest to microUSB port): one user LED will be blinking faster
+    * keep **HOLDING** the **user button** and press **reset button** keep holding the **user button**
+    * release both buttons: now the device should be in DFU mode, two green LEDs will be on, one **user LED** will be **OFF**
+    * check DFU mode using `dfu-util`:
 ```
 $ dfu-util  --list
 TBA
