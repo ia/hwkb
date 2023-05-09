@@ -186,7 +186,7 @@ $ flashrom -p TBA -r OUTPUT_FILE
 ## Hardware info
 
  - hardware revision: **v1_3**
- - labeled chip: **TBA_MCU**
+ - labeled chip: **STM32F415**
  - [data sheet](https://example.com/mcu.pdf)
  - **TBA_MCU** pinout table:
 
