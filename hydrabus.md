@@ -197,7 +197,7 @@ $ flashrom -p TBA -r OUTPUT_FILE
 ### MCU
 
  - labeled chip: **STM32F415**
- - [data sheet](https://example.com/mcu.pdf)
+ - [ST documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32f405-415/documentation.html)
  - **TBA_MCU** pinout table:
 
 ![TBA_MCU DS pinout](../master/resources/hydrabus_MCU_datasheet_pinout_table.png)  
