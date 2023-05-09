@@ -185,16 +185,22 @@ $ flashrom -p TBA -r OUTPUT_FILE
 
 ## Hardware info
 
+
+### Board
+
  - hardware revision: **v1_3**
+ - **HydraBus** schematic:
+
+![HydraBus schematic](../master/resources/hydrabus_schematic.png)  
+
+
+### MCU
+
  - labeled chip: **STM32F415**
  - [data sheet](https://example.com/mcu.pdf)
  - **TBA_MCU** pinout table:
 
 ![TBA_MCU DS pinout](../master/resources/hydrabus_MCU_datasheet_pinout_table.png)  
-
- - **HydraBus** schematic:
-
-![HydraBus schematic](../master/resources/hydrabus_schematic.png)  
 
 
 
