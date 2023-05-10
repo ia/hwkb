@@ -207,7 +207,7 @@ $ flashrom -p TBA -r OUTPUT_FILE
 
 ## Additional links
 
- - [Blog]()
+ - [Blog](https://hydrabus.com)
  - [Shop]()
 
 
