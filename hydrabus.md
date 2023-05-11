@@ -184,6 +184,8 @@ $ make
  - `flashrom` usage (dump flash):
 ```
 $ flashrom -p serprog:dev=/dev/hydrabus -r DUMP.bin
+
+LOG OUTPUT TBA
 ```
 
 
