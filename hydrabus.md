@@ -183,7 +183,7 @@ $ make
  - connect TBA PINS
  - `flashrom` usage (dump flash):
 ```
-$ flashrom -p TBA -r OUTPUT_FILE
+$ flashrom -p serprog:dev=/dev/hydrabus -r DUMP.bin
 ```
 
 
