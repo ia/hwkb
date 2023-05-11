@@ -109,7 +109,7 @@ $ sudo  usermod  -a  -G dialout  ${USER}
 ```
 
 # Hydrabus board
-SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVendor}=="1d50", ATTRS{product}=="HydraBus 1.0 COM Port1", ATTRS{removable}=="removable", ATTRS{version}==" 1.10", SYMLINK+="hydrabus"
+SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVendor}=="1d50", ATTRS{product}=="HydraBus 1.0 COM Port1", ATTRS{removable}=="removable", ATTRS{version}==" 1.10", MODE="0664", GROUP="plugdev", ENV{ID_MM_DEVICE_IGNORE}="1",  SYMLINK+="hydrabus"
 
 ```
 
