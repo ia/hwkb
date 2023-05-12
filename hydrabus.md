@@ -77,7 +77,7 @@
 |            | SUMP CH 7 |   PC7   |   PC8    | SUMP CH 15 | SDIO D0 |
 
 
-### SWD_DEBUG
+#### SWD_DEBUG
 
 
 | pin |  SWD  | note |
