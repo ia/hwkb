@@ -15,6 +15,7 @@
       * [PB-J1](#pb-j1)
       * [PC-J3](#pc-j3)
       * [SWD_DEBUG](#swd_debug)
+    * [By protocols](#by-protocols)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
