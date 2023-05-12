@@ -10,10 +10,11 @@
 
 
   * [Pinouts](#pinouts)
-    * [PA-J2](#pa-j2)
-    * [PB-J1](#pb-j1)
-    * [PC-J3](#pc-j3)
-    * [SWD_DEBUG](#swd_debug)
+    * [By connectors](#by-connectors)
+      * [PA-J2](#pa-j2)
+      * [PB-J1](#pb-j1)
+      * [PC-J3](#pc-j3)
+      * [SWD_DEBUG](#swd_debug)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
@@ -30,7 +31,10 @@
 ## Pinouts
 
 
-### PA-J2
+### By connectors
+
+
+#### PA-J2
 
 
 |      |     <<<<====    | PA/left | PA/right |    ====>>>>      |
@@ -45,7 +49,7 @@
 |      | SC CD           |   PA7   |   PA8    | SC CLK           |
 
 
-### PB-J1
+#### PB-J1
 
 
 |       |         | <<<<==== | PB/left | PB/right | ====>>>>  |         |        |
@@ -58,7 +62,7 @@
 |       |   PWM1  | 1Wire    |   PB11  |   PB0    |           |         |        |
 
 
-### PC-J3
+#### PC-J3
 
 
 |            |  <<<<==== | PC/left | PC/right | ====>>>>   |         |
