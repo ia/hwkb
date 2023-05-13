@@ -96,7 +96,7 @@
 
 
 
-### By connectors
+### By protocols
 
 
 TBA
