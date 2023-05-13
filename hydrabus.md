@@ -16,6 +16,7 @@
       * [PC-J3](#pc-j3)
       * [SWD_DEBUG](#swd_debug)
     * [By protocols](#by-protocols)
+      * [UART](#uart)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
