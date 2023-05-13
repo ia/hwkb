@@ -196,7 +196,7 @@ $ make
 
 ### Dump SPI flash
 
- - connect TBA PINS
+ - connect pins from the device to a flash chip according to [SPI](#spi) table
  - `flashrom` usage (dump flash):
 ```
 $ flashrom -p serprog:dev=/dev/hydrabus -r DUMP.bin
