@@ -18,6 +18,7 @@
     * [By protocols](#by-protocols)
       * [UART](#uart)
       * [SPI](#spi)
+      * [JTAG](#jtag)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
