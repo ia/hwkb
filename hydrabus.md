@@ -17,6 +17,7 @@
       * [SWD_DEBUG](#swd_debug)
     * [By protocols](#by-protocols)
       * [UART](#uart)
+      * [SPI](#spi)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Update firmware](#update-firmware)
