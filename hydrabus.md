@@ -54,6 +54,8 @@
 |      | SC CD           |   PA7   |   PA8    | SC CLK           |
 
 
+
+
 #### PB-J1
 
 
