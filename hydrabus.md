@@ -102,6 +102,11 @@
 #### UART
 
 
+#### SPI
+
+
+TBA
+
 
 
 ## Getting started
