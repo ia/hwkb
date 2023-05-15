@@ -40,17 +40,18 @@
 
 #### PA-J2
 
+**|**_|
 
-|**|**_||     <<<<====    | PA/left | PA/right |    ====>>>>      |
-|:-----:|-----------------|---------|----------|------------------|
-|       | UBTN            |   PA0   |   PA15   | SPI1 CS          |
-|       | ADC1            |   PA1   |   BOOT0  |                  |
-|       | UART2 / LIN2 TX |   PA2   |   PD2    | SDIO CMD         |
-|       | UART2 / LIN2 RX |   PA3   |   PA12   | USB0 D+          |
-|  DAC1 | ULED            |   PA4   |   PA11   | USB0 D-          |
-|  DAC2 | SC /VCC         |   PA5   |   PA10   | USART1 / LIN1 RX |
-|       | SC RST          |   PA6   |   PA9    | USART1 / LIN1 TX |
-|       | SC CD           |   PA7   |   PA8    | SC CLK           |
+|      |     <<<<====    | PA/left | PA/right |    ====>>>>      |
+|:----:|-----------------|---------|----------|------------------|
+|      | UBTN            |   PA0   |   PA15   | SPI1 CS          |
+|      | ADC1            |   PA1   |   BOOT0  |                  |
+|      | UART2 / LIN2 TX |   PA2   |   PD2    | SDIO CMD         |
+|      | UART2 / LIN2 RX |   PA3   |   PA12   | USB0 D+          |
+| DAC1 | ULED            |   PA4   |   PA11   | USB0 D-          |
+| DAC2 | SC /VCC         |   PA5   |   PA10   | USART1 / LIN1 RX |
+|      | SC RST          |   PA6   |   PA9    | USART1 / LIN1 TX |
+|      | SC CD           |   PA7   |   PA8    | SC CLK           |
 
 
 #### PB-J1
