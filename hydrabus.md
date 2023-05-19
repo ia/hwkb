@@ -60,14 +60,14 @@
 
 |**_**|
 
-|       |         | <<<<==== | PB/left | PB/right | ====>>>>  |         |        |
-|:-----:|---------|----------|---------|----------|-----------|---------|--------|
-| SC TX | CAN2 TX | I2C SCL  |   PB6   |   PB5    | SPI1 MOSI | CAN2 RX | 3W SDO |
-|       |         | I2C SDA  |   PB7   |   PB4    | SPI1 MISO | 2W IO   | 3W SDI |
-|       | WIEG D0 | CAN1 RX  |   PB8   |   PB3    | SPI1 SCK  | 2W CLK  | 3W CLK |
-|       | WIEG D1 | CAN1 TX  |   PB9   |   PB2    | BOOT1     |         |        |
-|       |         | SPI2 SCK |   PB10  |   PB1    |           |         |        |
-|       |   PWM1  | 1Wire    |   PB11  |   PB0    |           |         |        |
+|      |       |         | <<<<==== | PB/left | PB/right | ====>>>>  |         |        |
+|:----:|-------|---------|----------|---------|----------|-----------|---------|--------|
+|      | SC TX | CAN2 TX | I2C SCL  |   PB6   |   PB5    | SPI1 MOSI | CAN2 RX | 3W SDO |
+| TRST |       |         | I2C SDA  |   PB7   |   PB4    | SPI1 MISO | 2W IO   | 3W SDI |
+| TDI  |       | WIEG D0 | CAN1 RX  |   PB8   |   PB3    | SPI1 SCK  | 2W CLK  | 3W CLK |
+| TDO  |       | WIEG D1 | CAN1 TX  |   PB9   |   PB2    | BOOT1     |         |        |
+| TMS  |       |         | SPI2 SCK |   PB10  |   PB1    |           |         |        |
+| TCK  |       |   PWM1  | 1Wire    |   PB11  |   PB0    |           |         |        |
 
 
 #### PC-J3
