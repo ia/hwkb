@@ -123,7 +123,44 @@ PA-J2 **|**_|
 #### SPI
 
 
-TBA
+PA-J2 **|**_|
+
+| PA/left | PA/right |         |
+|:-------:|----------|---------|
+|   PA0   |   PA15   | SPI1 CS |
+|   PA1   |   BOOT0  |         |
+|   PA2   |   PD2    |         |
+|   PA3   |   PA12   |         |
+|   PA4   |   PA11   |         |
+|   PA5   |   PA10   |         |
+|   PA6   |   PA9    |         |
+|   PA7   |   PA8    |         |
+
+
+PB-J1 |**_**|
+
+| <<<<==== | PB/left | PB/right | ====>>>>  |
+|:--------:|---------|----------|-----------|
+|          |   PB6   |   PB5    | SPI1 MOSI |
+|          |   PB7   |   PB4    | SPI1 MISO |
+|          |   PB8   |   PB3    | SPI1 SCK  |
+|          |   PB9   |   PB2    |           |
+| SPI2 SCK |   PB10  |   PB1    |           |
+|          |   PB11  |   PB0    |           |
+
+
+PC-J3 |_**|**
+
+|  <<<<==== | PC/left | PC/right |
+|:---------:|---------|----------|
+|           |   PC0   |   PC15   |
+| SPI2 CS   |   PC1   |   PC14   |
+| SPI2 MISO |   PC2   |   PC13   |
+| SPI2 MOSI |   PC3   |   PC12   |
+|           |   PC4   |   PC11   |
+|           |   PC5   |   PC10   |
+|           |   PC6   |   PC9    |
+|           |   PC7   |   PC8    |
 
 
 #### JTAG
