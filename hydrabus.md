@@ -166,8 +166,16 @@ PC-J3 |_**|**
 #### JTAG
 
 
-TBA
+PB-J1 |**_**|
 
+|      | PB/left | PB/right |
+|:----:|---------|----------|
+|      |   PB6   |   PB5    |
+| TRST |   PB7   |   PB4    |
+| TDI  |   PB8   |   PB3    |
+| TDO  |   PB9   |   PB2    |
+| TMS  |   PB10  |   PB1    |
+| TCK  |   PB11  |   PB0    |
 
 
 
