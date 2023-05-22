@@ -112,11 +112,11 @@ PA-J2 **|**_|
 |:---------------:|---------|----------|------------------|
 |                 |  `PA0`  |  `PA15`  |                  |
 |                 |  `PA1`  |  `BOOT0` |                  |
-| UART2 / LIN2 TX |  `PA2`  |  `PD2`   |                  |
-| UART2 / LIN2 RX |  `PA3`  |  `PA12`  |                  |
+| UART2 / LIN2 TX |**`PA2`**|  `PD2`   |                  |
+| UART2 / LIN2 RX |**`PA3`**|  `PA12`  |                  |
 |                 |  `PA4`  |  `PA11`  |                  |
-|                 |  `PA5`  |  `PA10`  | USART1 / LIN1 RX |
-|                 |  `PA6`  |  `PA9`   | USART1 / LIN1 TX |
+|                 |  `PA5`  |**`PA10`**| USART1 / LIN1 RX |
+|                 |  `PA6`  |**`PA9`** | USART1 / LIN1 TX |
 |                 |  `PA7`  |  `PA8`   |                  |
 
 
