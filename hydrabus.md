@@ -179,7 +179,18 @@ PB-J1 |**_**|
 
 #### SUMP
 
-TBA
+PC-J3 |_**|**
+
+| <<<<<<<<  | PC/left | PC/right |  >>>>>>>>  |
+|:---------:|---------|----------|------------|
+| SUMP CH 0 |  `PC0`  |  `PC15`  | SUMP CH  8 |
+| SUMP CH 1 |  `PC1`  |  `PC14`  | SUMP CH  9 |
+| SUMP CH 2 |  `PC2`  |  `PC13`  | SUMP CH 10 |
+| SUMP CH 3 |  `PC3`  |  `PC12`  | SUMP CH 11 |
+| SUMP CH 4 |  `PC4`  |  `PC11`  | SUMP CH 12 |
+| SUMP CH 5 |  `PC5`  |  `PC10`  | SUMP CH 13 |
+| SUMP CH 6 |  `PC6`  |  `PC9`   | SUMP CH 14 |
+| SUMP CH 7 |  `PC7`  |  `PC8`   | SUMP CH 15 |
 
 
 
