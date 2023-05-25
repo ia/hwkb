@@ -298,6 +298,7 @@ LOG OUTPUT TBA
 
 ### Logic analyzer
 
+ - connect pins from the device to target pins according to [SUMP](#sump) table
  - TBA
 
 
