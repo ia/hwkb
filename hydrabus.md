@@ -3,7 +3,7 @@
 # HydraBus
 
 
-![HydraBus pinout](../master/resources/hydrabus_pinout.png)  
+![HydraBus pinout](../master/resources/hydrabus/pinout_hb.png)  
 
 
 
