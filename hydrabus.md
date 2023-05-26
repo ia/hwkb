@@ -19,6 +19,7 @@
       * [UART](#uart)
       * [SPI](#spi)
       * [JTAG](#jtag)
+      * [Wire](#wire)
       * [SUMP](#sump)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
