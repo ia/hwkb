@@ -324,7 +324,7 @@ LOG OUTPUT TBA
  - [ST documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32f405-415/documentation.html)
  - **TBA_MCU** pinout table:
 
-![TBA_MCU DS pinout](../master/resources/hydrabus_MCU_datasheet_pinout_table.png)  
+![TBA_MCU DS pinout](../master/resources/hydrabus/mcu_hb_ds_pt.png)  
 
 
 
