@@ -315,7 +315,7 @@ LOG OUTPUT TBA
  - hardware revision: **v1_3**
  - **HydraBus** schematic:
 
-![HydraBus schematic](../master/resources/hydrabus_schematic.png)  
+![HydraBus schematic](../master/resources/hydrabus/schematic_hb.png)  
 
 
 ### MCU
