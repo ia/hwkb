@@ -22,6 +22,7 @@
       * [SPI](#spi)
       * [JTAG](#jtag)
       * [Wire](#wire)
+      * [I2C](#i2c)
       * [SUMP](#sump)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
