@@ -246,10 +246,13 @@ $ sudo  usermod  -a  -G dialout  ${USER}
 
  - add a line like this to `/etc/udev/rules.d/99-usb.rules` for permanent name in `/dev`:
 ```
-
 # Hydrabus board
-SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVendor}=="1d50", ATTRS{product}=="HydraBus 1.0 COM Port1", ATTRS{removable}=="removable", ATTRS{version}==" 1.10", MODE="0664", GROUP="plugdev", ENV{ID_MM_DEVICE_IGNORE}="1",  SYMLINK+="hydrabus"
 
+## - set ignore for Modem Manager & permissions
+ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="60a7", ENV{ID_MM_DEVICE_IGNORE}="1", ENV{ID_MM_TTY_BLACKLIST}="1", ENV{MTP_NO_PROBE}="1", ENV{ID_MM_PORT_IGNORE}="1", ENV{ID_MM_TTY_MANUAL_SCAN_ONLY}="1", MODE="0664", GROUP="plugdev"
+
+## - set symlink & permissions
+SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVendor}=="1d50", ATTRS{product}=="HydraBus 1.0 COM Port1", ATTRS{removable}=="removable", ATTRS{version}==" 1.10", MODE="0664", GROUP="plugdev", SYMLINK+="hydrabus"
 ```
 
  - restart `udev` to apply changes:
