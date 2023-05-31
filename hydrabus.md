@@ -26,8 +26,8 @@
       * [SUMP](#sump)
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
-    * [Update firmware](#update-firmware)
     * [Build firmware](#build-firmware)
+    * [Update firmware](#update-firmware)
  * [Basic operations](#basic-operations)
     * [Dump SPI flash](#dump-spi-flash)
     * [Logic analyzer](#logic-analyzer)
@@ -266,6 +266,29 @@ $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  si
 ```
 
 
+### Build firmware
+
+ - download firmware source and 3rd party components (chibios, tokenline & python-hydrabus):
+```
+$ git  clone  git@ssh.github.com:hydrabus/hydrafw.git
+$ cd  hydrafw
+$ git  submodule  init
+$ git  submodule  update
+```
+
+ - (optionally) create a separate local branch for experiments before building:
+```
+$ git  checkout  -b 0.11-local  v0.11
+```
+
+ - build local firmware:
+```
+$ cd  src
+$ make  clean
+$ make
+```
+
+
 ### Update firmware
 
  - put the device into DFU mode - the most reliable way:
@@ -318,29 +341,6 @@ parsing element 1, address = 0x08000000, size = 184468
 Download	[=========================] 100%       184468 bytes
 Download done.
 done parsing DfuSe file
-```
-
-
-### Build firmware
-
- - download firmware source and 3rd party components (chibios, tokenline & python-hydrabus):
-```
-$ git  clone  git@ssh.github.com:hydrabus/hydrafw.git
-$ cd  hydrafw
-$ git  submodule  init
-$ git  submodule  update
-```
-
- - (optionally) create a separate local branch for experiments before building:
-```
-$ git  checkout  -b 0.11-local  v0.11
-```
-
- - build local firmware:
-```
-$ cd  src
-$ make  clean
-$ make
 ```
 
 
