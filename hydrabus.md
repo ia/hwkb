@@ -286,7 +286,36 @@ Found DFU: [0483:df11] ver=2200, devnum=31, cfg=1, intf=0, path="2-1", alt=1, na
 Found DFU: [0483:df11] ver=2200, devnum=31, cfg=1, intf=0, path="2-1", alt=0, name="@Internal Flash  /0x08000000/04*016Kg,01*064Kg,07*128Kg"
 ```
 
- - flash : TBA
+ - flash:
+```
+$ dfu-util  -d 0483:df11  -a 0  -D build/hydrafw.dfu
+dfu-util 0.9
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Opening DFU capable USB device...
+ID 0483:df11
+Run-time device DFU version 011a
+Claiming USB DFU Interface...
+Setting Alternate Setting #0 ...
+Determining device status: state = dfuERROR, status = 10
+dfuERROR, clearing status
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 011a
+Device returned transfer size 2048
+DfuSe interface name: "Internal Flash  "
+file contains 1 DFU images
+parsing DFU image 1
+image for alternate setting 0, (1 elements, total size = 184476)
+parsing element 1, address = 0x08000000, size = 184468
+Download	[=========================] 100%       184468 bytes
+Download done.
+done parsing DfuSe file
+```
 
 
 ### Build firmware
