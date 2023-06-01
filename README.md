@@ -19,7 +19,7 @@ Obvious notes and trivial scripts related to embedded hardware
 ### Hardware tools
 
  - [HydraBus](../master/hydrabus.md)
- - [Shikra](../master/shikra.md)
+ - [Shikra](../master/hw_shikra.md)
 
 
 
