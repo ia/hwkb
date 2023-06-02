@@ -235,6 +235,9 @@ Express tutorials for GnuLinux/Ubuntu box
 
 ### Prepare environment
 
+
+#### Permissions
+
  - add a current user to `dialout` group for tty device access without `sudo` (root):
 ```
 $ sudo  gpasswd  -a ${USER}  dialout
@@ -243,6 +246,9 @@ or
 ```
 $ sudo  usermod  -a  -G dialout  ${USER}
 ```
+
+
+#### udev
 
  - add a line like this to `/etc/udev/rules.d/99-usb.rules` for permanent name in `/dev`:
 ```
@@ -260,6 +266,9 @@ SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVe
 $ sudo  udevadm  control  --reload-rules  &&  sudo  udevadm  trigger
 ```
 
+
+#### Packages
+
  - install required `deb` packages (to build firmware and to work with the device):
 ```
 $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
@@ -269,6 +278,8 @@ $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  si
 ```
 $ python3  -m pip  install  GitPython intelhex  --upgrade
 ```
+
+
 
 
 ### Build firmware
@@ -292,6 +303,8 @@ $ cd  src
 $ make  clean
 $ make
 ```
+
+
 
 
 ### Flash firmware
