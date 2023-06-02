@@ -250,6 +250,8 @@ or
 $ sudo  usermod  -a  -G dialout  ${USER}
 ```
 
+ - restart a host to apply changes
+
 
 #### udev
 
