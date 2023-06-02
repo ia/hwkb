@@ -260,7 +260,7 @@ SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVe
 $ sudo  udevadm  control  --reload-rules  &&  sudo  udevadm  trigger
 ```
 
- - install helpful packages:
+ - install required system packages (to build firmware and to work with the device):
 ```
 $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
 ```
