@@ -27,7 +27,7 @@
   * [Getting started](#getting-started)
     * [Prepare environment](#prepare-environment)
     * [Build firmware](#build-firmware)
-    * [Update firmware](#update-firmware)
+    * [Flash firmware](#flash-firmware)
  * [Basic operations](#basic-operations)
     * [Dump SPI flash](#dump-spi-flash)
     * [Logic analyzer](#logic-analyzer)
@@ -289,7 +289,7 @@ $ make
 ```
 
 
-### Update firmware
+### Flash firmware
 
  - put the device into DFU mode - the most reliable way:
     * connect the device to a host using **microUSB1** connector (the one next to **two buttons**): two green LEDs will be on, one **user LED** will be blinking
