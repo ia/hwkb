@@ -260,9 +260,14 @@ SUBSYSTEM=="tty", ATTRS{bcdDevice}=="0200", ATTRS{idProduct}=="60a7", ATTRS{idVe
 $ sudo  udevadm  control  --reload-rules  &&  sudo  udevadm  trigger
 ```
 
- - install required system packages (to build firmware and to work with the device):
+ - install required `deb` packages (to build firmware and to work with the device):
 ```
 $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  sigrok-cli  pulseview  flashrom  flashrom  gcc-arm-none-eabi  libnewlib-arm-none-eabi  libstdc++-arm-none-eabi-newlib  libc6:i386
+```
+
+ - install required `python` modules:
+```
+$ python3  -m pip  install  GitPython intelhex  --upgrade
 ```
 
 
