@@ -281,7 +281,7 @@ $ sudo  apt  install  dfu-util  picocom  python3-pip  python3-serial  sigrok  si
 
  - install required `python` modules:
 ```
-$ python3  -m pip  install  GitPython intelhex  --upgrade
+$ python3  -m pip  install  GitPython intelhex pyHydrabus  --upgrade
 ```
 
 
