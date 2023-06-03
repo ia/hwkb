@@ -32,6 +32,7 @@
     * [Build firmware](#build-firmware)
     * [Flash firmware](#flash-firmware)
  * [Basic interaction](#basic-interaction)
+    * [Serial terminal](#serial-terminal)
  * [Basic operations](#basic-operations)
     * [Dump SPI flash](#dump-spi-flash)
     * [Logic analyzer](#logic-analyzer)
@@ -371,6 +372,9 @@ done parsing DfuSe file
 
 
 ## Basic interaction
+
+
+### Serial terminal
 
 
 TBA
