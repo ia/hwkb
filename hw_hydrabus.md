@@ -31,6 +31,7 @@
       * [Packages](#packages)
     * [Build firmware](#build-firmware)
     * [Flash firmware](#flash-firmware)
+ * [Basic interaction](#basic-interaction)
  * [Basic operations](#basic-operations)
     * [Dump SPI flash](#dump-spi-flash)
     * [Logic analyzer](#logic-analyzer)
@@ -365,6 +366,14 @@ Download	[=========================] 100%       184468 bytes
 Download done.
 done parsing DfuSe file
 ```
+
+
+
+
+## Basic interaction
+
+
+TBA
 
 
 
