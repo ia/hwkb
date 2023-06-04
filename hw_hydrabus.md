@@ -419,6 +419,7 @@ LOG OUTPUT TBA
 
  - labeled chip: **STM32F415**
  - [ST documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32f405-415/documentation.html)
+ - [ST documentation/pdf](https://www.st.com/resource/en/datasheet/stm32f415rg.pdf)
  - **TBA_MCU** pinout table:
 
 ![TBA_MCU DS pinout](../master/resources/hydrabus/mcu_hb_ds_pt.png)  
