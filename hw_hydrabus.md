@@ -374,6 +374,10 @@ done parsing DfuSe file
 ## Basic interaction
 
 
+Use the following settings for serial connection to the device:
+TBA
+
+
 ### Serial terminal
 
 
