@@ -403,7 +403,7 @@ Use the following settings for serial connection to the device:
 
 Connect to the device using one of serial terminal tools like `picocom`:
 ```
-$ picocom TBA
+$ picocom  --baud 115200  --databits 8  --parity n  --flow n  --stopbits 1  /dev/hydrabus
 ```
 
 
