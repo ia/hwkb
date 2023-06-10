@@ -401,7 +401,10 @@ Use the following settings for serial connection to the device:
 ### Serial terminal
 
 
-TBA
+Connect to the device using one of serial terminal tools like `picocom`:
+```
+$ picocom TBA
+```
 
 
 
