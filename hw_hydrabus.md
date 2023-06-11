@@ -404,7 +404,51 @@ Connect to the device using one of serial terminal tools like `picocom`:
 ```
 $ picocom  --baud 115200  --databits 8  --parity n  --flow n  --stopbits 1  /dev/hydrabus
 
-TBA log
+picocom v2.2
+
+port is        : /dev/hydrabus
+flowcontrol    : none
+baudrate is    : 115200
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+
+Type [C-a] [C-h] to see available commands
+
+Terminal ready
+
+> show system
+HydraFW (HydraBus) v0.11-0-gd6d6586-dirty 2023-03-24
+sysTime: 0x000699ed.
+cyclecounter: 0xb1357118 cycles.
+cyclecounter64: 0x00000000b1357127 cycles.
+10ms delay: 1680032 cycles.
+
+MCU Info
+DBGMCU_IDCODE:0x10076413
+CPUID:        0x410FC241
+Flash UID:    0x41002D 0x34365111 0x39333434
+Flash Size:   1024KB
+
+Kernel:       ChibiOS 5.1.0
+Compiler:     GCC 6.3.1 20170620
+Architecture: ARMv7E-M
+Core Variant: Cortex-M4F
+Port Info:    Advanced kernel mode
+Platform:     STM32F405 High Performance with DSP and FPU
+Board:        HydraBus 1.0
+Build time:   May 30 2023 - 17:52:55
+> 
 ```
 
 
