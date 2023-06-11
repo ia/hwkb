@@ -11,7 +11,7 @@
   * This documentation is written & tested with the following versions of hardware/software:
 
 |Component | Revision/Version |
-|:--------:|------------------|
+|:---------|:----------------:|
 | hydrabus | `1_3`            | 
 | hydranfc | `XX`             |
 | gnulinux |`Ubuntu 18.04 LTS`|
