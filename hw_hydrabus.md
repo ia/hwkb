@@ -9,6 +9,7 @@
   * This is not official documentation but a straight-forward compilation of HOWTOs from official project, documents and other related articles from the Internet.
   * All mentioned trademarks, tools, projects, content, and information belong to their legal creators & copyright holders.
   * This documentation is written & tested with the following versions of hardware/software:
+
 |Component | Revision/Version |
 |:--------:|------------------|
 | hydrabus | `1_3`            | 
