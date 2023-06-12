@@ -430,6 +430,8 @@ Terminal ready
 
 ```
 
+To make sure that the device is up and running, check the following basic commands:
+
 TBA
 
 > show system
