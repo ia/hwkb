@@ -428,6 +428,10 @@ Type [C-a] [C-h] to see available commands
 
 Terminal ready
 
+```
+
+TBA
+
 > show system
 HydraFW (HydraBus) v0.11-0-gd6d6586-dirty 2023-03-24
 sysTime: 0x000699ed.
