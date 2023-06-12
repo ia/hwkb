@@ -434,6 +434,7 @@ To make sure that the device is up and running, check the following basic comman
 
 TBA
 
+```
 > show system
 HydraFW (HydraBus) v0.11-0-gd6d6586-dirty 2023-03-24
 sysTime: 0x000699ed.
