@@ -391,7 +391,7 @@ done parsing DfuSe file
 Use the following settings for serial connection to the device:
 
 |  Option  | Value  |
-|:---------|-------:|
+|:--------:|:------:|
 | Baudrate |`115200`|
 | Databits |   `8`  |
 | Parity   |   `n`  |
