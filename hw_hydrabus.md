@@ -432,8 +432,7 @@ Terminal ready
 
 To make sure that the device is up and running, check the following basic commands:
 
-TBA
-
+  * type `show system` to display system information:
 ```
 > show system
 HydraFW (HydraBus) v0.11-0-gd6d6586-dirty 2023-03-24
