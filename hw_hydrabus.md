@@ -459,8 +459,11 @@ Build time:   May 30 2023 - 17:52:55
 ```
 
   * turn user LED off:
+```
 gpio "pa4" mode in  off
 gpio "pa4" mode out off
+```
+
 TBA
 
 
