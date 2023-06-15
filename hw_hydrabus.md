@@ -464,6 +464,8 @@ gpio "pa4" mode in  off
 gpio "pa4" mode out off
 ```
 
+  * turn user LED on:
+
 TBA
 
 
