@@ -466,8 +466,8 @@ Clearing PA4
 
   * turn user LED on:
 ```
-gpio "pa4" mode in  off
-gpio "pa4" mode out off
+> gpio "pa4" mode in  off
+> gpio "pa4" mode out off
 ```
 
 
