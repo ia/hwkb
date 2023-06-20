@@ -46,6 +46,23 @@ git  push
 ```
 
 
+## rebase with fixed conflict:
+  * if after non-conflicting changes/merges git shows something like:
+```
+On branch main
+Your branch is up to date with 'upstream/main'.
+
+You are currently rebasing branch 'OLD_BRANCH' on 'shaID'.
+  (all conflicts fixed: run "git rebase --continue")
+
+nothing to commit, working tree clean
+```
+  * then just do:
+```
+git rebase --abort
+```
+
+
 ## delete:
 ```
 git  branch  -D BRANCH_TO_DELETE
