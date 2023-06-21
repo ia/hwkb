@@ -32,10 +32,15 @@ git  push  -u  origin  LOCAL_BRANCH
 git  remote  add  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 git  fetch  upstream
 ```
-Optionally(?):
-`git  merge  upstream/master  master`
+
+Optionally (???):
+```
+git  merge  upstream/master  master
+```
 or
-`git rebase upstream/master`
+```
+git  rebase  upstream/master
+```
 
 
 ## merge:
