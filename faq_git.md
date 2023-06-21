@@ -87,3 +87,24 @@ git  rev-parse  --short  HEAD
 ```
 
 
+## ignore files (global setting):
+  * add to `core` section of `~/.gitconfig` file:
+```
+[core]
+	...
+	excludesfile = ~/.gitignore
+```
+  * add list of must-be-ignored files to `~/.gitignore` file:
+```
+GPATH
+GRTAGS
+GTAGS
+tags
+cscope.in.out
+cscope.out
+cscope.po.out
+```
+
+
+
+
