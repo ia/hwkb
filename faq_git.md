@@ -17,8 +17,8 @@ git  push  origin  EMPTY_BRANCH
 ```
 git  checkout  -b DST  SRC
 ```
-DST - destination name to new local branch
-SRC - commit/tag/branch from git repo
+  * DST - destination name to new local branch
+  * SRC - commit/tag/branch from git repo
 
 
 ## upload local branch to remote repo:
