@@ -13,7 +13,7 @@ git  push  origin  EMPTY_BRANCH
 ```
 
 
-## create:
+## create branch:
 ```
 git  checkout  -b DST  SRC
 ```
