@@ -49,6 +49,8 @@ git  checkout  DST
 git  merge  SRC
 git  push
 ```
+  * DST - destination branch **merge to**
+  * SRC - source branch **merge from**
 
 
 ## rebase with fixed conflict:
