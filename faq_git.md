@@ -57,7 +57,7 @@ git  push
 On branch main
 Your branch is up to date with 'upstream/main'.
 
-You are currently rebasing branch 'OLD_BRANCH' on 'shaID'.
+You are currently rebasing branch 'BRANCH' on 'shaID'.
   (all conflicts fixed: run "git rebase --continue")
 
 nothing to commit, working tree clean
