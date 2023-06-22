@@ -99,7 +99,7 @@ git  rev-parse  --short  HEAD
 	...
 	excludesfile = ~/.gitignore
 ```
-  * add list of must-be-ignored files to `~/.gitignore` file:
+  * add list of must-to-be-ignored files in `~/.gitignore` file:
 ```
 GPATH
 GRTAGS
