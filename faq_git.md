@@ -5,11 +5,11 @@
 
 ## create empty branch without history:
 ```
-git  checkout  --orphan  EMPTY_BRANCH
-git  rm  -rf  .
-rm  ...
-git  commit  --allow-empty  -m "Init commit"
-git  push  origin  EMPTY_BRANCH
+$ git  checkout  --orphan  EMPTY_BRANCH
+$ git  rm  -rf  .
+$ rm  ...
+$ git  commit  --allow-empty  -m "Init commit"
+$ git  push  origin  EMPTY_BRANCH
 ```
 
 
