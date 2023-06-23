@@ -43,6 +43,9 @@ git  rebase  upstream/master
 ```
 
 
+## make working directory out of branch:
+
+
 ## merge branch:
 ```
 git  checkout  DST
