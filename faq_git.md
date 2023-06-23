@@ -44,7 +44,9 @@ git  rebase  upstream/master
 
 
 ## make working directory out of branch:
+```
 TBA
+```
 
 
 ## merge branch:
