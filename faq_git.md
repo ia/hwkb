@@ -43,7 +43,7 @@ git  rebase  upstream/master
 ```
 
 
-## merge:
+## merge branch:
 ```
 git  checkout  DST
 git  merge  SRC
