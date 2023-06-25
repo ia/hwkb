@@ -23,7 +23,7 @@ $ git  checkout  -b DST  SRC
 
 ## upload local branch to remote repo:
 ```
-git  push  -u  origin  LOCAL_BRANCH
+$ git  push  -u  origin  LOCAL_BRANCH
 ```
 
 
