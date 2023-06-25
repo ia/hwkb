@@ -15,7 +15,7 @@ $ git  push  origin  EMPTY_BRANCH
 
 ## create branch:
 ```
-git  checkout  -b DST  SRC
+$ git  checkout  -b DST  SRC
 ```
   * DST - destination name to new local branch
   * SRC - commit/tag/branch from git repo
