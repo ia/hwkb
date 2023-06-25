@@ -29,8 +29,8 @@ $ git  push  -u  origin  LOCAL_BRANCH
 
 ## add upstream meta info into local forked repo:
 ```
-git  remote  add  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
-git  fetch  upstream
+$ git  remote  add  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+$ git  fetch  upstream
 ```
 
 Optionally (???):
