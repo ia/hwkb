@@ -35,11 +35,11 @@ $ git  fetch  upstream
 
 Optionally (???):
 ```
-git  merge  upstream/master  master
+$ git  merge  upstream/master  master
 ```
 or
 ```
-git  rebase  upstream/master
+$ git  rebase  upstream/master
 ```
 
 
