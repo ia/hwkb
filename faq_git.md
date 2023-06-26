@@ -78,8 +78,8 @@ $ git rebase --abort
 
 ## delete branch:
 ```
-git  branch  -D BRANCH_TO_DELETE
-git  push  origin  -d  BRANCH_TO_DELETE
+$ git  branch  -D BRANCH_TO_DELETE
+$ git  push  origin  -d  BRANCH_TO_DELETE
 ```
 
 
