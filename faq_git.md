@@ -51,9 +51,9 @@ TBA
 
 ## merge branch:
 ```
-git  checkout  DST
-git  merge  SRC
-git  push
+$ git  checkout  DST
+$ git  merge  SRC
+$ git  push
 ```
   * DST - destination branch **merge to**
   * SRC - source branch **merge from**
