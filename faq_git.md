@@ -96,7 +96,7 @@ $ git  reset  --hard  &&  git  clean  -x -f -d
 
 ## get short SHA ID of the latest commit:
 ```
-git  rev-parse  --short  HEAD
+$ git  rev-parse  --short  HEAD
 ```
 
 
