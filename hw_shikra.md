@@ -19,7 +19,7 @@
 
 ## TODO
 
-TBA
+ [ ] refactor document
 
 
 
