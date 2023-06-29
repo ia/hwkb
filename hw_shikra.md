@@ -24,6 +24,7 @@
  [ ] ftprog & drivers for windows
  [ ] enable led using ftprog
  [ ] configure pins using ftprog
+ [ ] pinout table(s)
 
 
 
