@@ -22,6 +22,7 @@
  [ ] refactor document
  [ ] more photos/3rdparty content/links (including extracted from web archive)
  [ ] ftprog & drivers for windows
+ [ ] enable led using ftprog
 
 
 
