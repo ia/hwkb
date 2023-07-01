@@ -126,8 +126,11 @@ cscope.po.out
 
 ## Wiki update
 
+- create wiki for your cloned project
+- clone wiki git
 
-git@ssh.github.com:ORIGINAL_USERNAME/ORIGINAL_REPO.wiki.git
-git remote add fork git@ssh.gihub.com:YOUR_USERNAME/FORKED_REPO.wiki.git
+~git@ssh.github.com:ORIGINAL_USERNAME/ORIGINAL_REPO.wiki.git~
+~git remote add fork git@ssh.gihub.com:YOUR_USERNAME/FORKED_REPO.wiki.git~
 
+git remote add upstream https://github.com/ORIGINAL_USERNAME/ORIG_REPO.wiki.git
 
