@@ -119,6 +119,10 @@ cscope.po.out
 ```
 
 
+## GNU/Linux key ring integration
+  * TBA
+
+
 
 
 # Github
