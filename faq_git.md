@@ -120,7 +120,10 @@ cscope.po.out
 
 
 ## GNU/Linux key ring integration
-  * TBA
+  * add to `credential` section of `~/.gitconfig` file:
+```
+TBA
+```
 
 
 
