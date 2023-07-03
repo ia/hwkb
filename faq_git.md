@@ -145,6 +145,7 @@ git fetch upstream
 git checkout -b upstream upstream/master
 git checkout master
 git merge upstream
+git commit -m "Merge from upstream to forked wiki"
 
 
 
