@@ -100,6 +100,12 @@ $ git  rev-parse  --short  HEAD
 ```
 
 
+## get tag by SHA ID commit:
+```
+git  tag  --points-at SHA_ID
+```
+
+
 ## ignore files (global setting):
   * add to `core` section of `~/.gitconfig` file:
 ```
@@ -146,6 +152,7 @@ git checkout -b upstream upstream/master
 git checkout master
 git merge upstream
 git commit -m "Merge from upstream to forked wiki"
+
 
 
 
