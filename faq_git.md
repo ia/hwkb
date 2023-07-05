@@ -102,7 +102,7 @@ $ git  rev-parse  --short  HEAD
 
 ## get tag by SHA ID commit:
 ```
-git  tag  --points-at SHA_ID
+$ git  tag  --points-at SHA_ID
 ```
 
 
