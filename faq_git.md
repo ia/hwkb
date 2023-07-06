@@ -128,7 +128,8 @@ cscope.po.out
 ## GNU/Linux key ring integration
   * add to `credential` section of `~/.gitconfig` file:
 ```
-TBA
+[credential]
+	helper = libsecret
 ```
 
 
