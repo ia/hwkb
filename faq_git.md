@@ -141,10 +141,11 @@ TBA
 
 - create wiki for your cloned project
 - clone wiki git
-
+```
 ~git@ssh.github.com:ORIGINAL_USERNAME/ORIGINAL_REPO.wiki.git~
 ~git remote add fork git@ssh.gihub.com:YOUR_USERNAME/FORKED_REPO.wiki.git~
-
+```
+```
 git clone git@ssh.gihub.com:YOUR_USERNAME/FORKED_REPO.wiki.git
 git remote add upstream https://github.com/ORIGINAL_USERNAME/ORIG_REPO.wiki.git
 git fetch upstream
@@ -152,7 +153,7 @@ git checkout -b upstream upstream/master
 git checkout master
 git merge upstream
 git commit -m "Merge from upstream to forked wiki"
-
+```
 
 
 
