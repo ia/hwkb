@@ -157,6 +157,9 @@ git checkout -b upstream upstream/master
 - switch back to your branch of forked wiki:
 ```
 git checkout master
+```
+- merge changes from upstream wiki branch to your forked wiki branch:
+```
 git merge upstream
 git commit -m "Merge from upstream to forked wiki"
 ```
