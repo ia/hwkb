@@ -153,6 +153,9 @@ git fetch upstream
 - create branch with wiki from upstream:
 ```
 git checkout -b upstream upstream/master
+```
+- switch back to your branch of forked wiki:
+```
 git checkout master
 git merge upstream
 git commit -m "Merge from upstream to forked wiki"
