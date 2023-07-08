@@ -145,6 +145,9 @@ cscope.po.out
 ```
 git clone git@ssh.gihub.com:YOUR_USERNAME/FORKED_REPO.wiki.git
 git remote add upstream https://github.com/ORIGINAL_USERNAME/ORIG_REPO.wiki.git
+```
+- fetch `upstream` git meta info:
+```
 git fetch upstream
 git checkout -b upstream upstream/master
 git checkout master
