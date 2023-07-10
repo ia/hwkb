@@ -105,6 +105,10 @@ $ git  rev-parse  --short  HEAD
 $ git  tag  --points-at SHA_ID
 ```
 
+## get branch name:
+
+TBA
+
 
 ## ignore files (global setting):
   * add to `core` section of `~/.gitconfig` file:
