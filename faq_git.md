@@ -105,9 +105,11 @@ $ git  rev-parse  --short  HEAD
 $ git  tag  --points-at SHA_ID
 ```
 
-## get branch name:
 
+## get branch name:
+```
 git  symbolic-ref  --short  HEAD
+```
 
 
 ## ignore files (global setting):
