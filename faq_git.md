@@ -107,7 +107,7 @@ $ git  tag  --points-at SHA_ID
 
 ## get branch name:
 
-TBA
+git  symbolic-ref  --short  HEAD
 
 
 ## ignore files (global setting):
