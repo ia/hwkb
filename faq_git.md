@@ -108,7 +108,7 @@ $ git  tag  --points-at SHA_ID
 
 ## get branch name:
 ```
-git  symbolic-ref  --short  HEAD
+$ git  symbolic-ref  --short  HEAD
 ```
 
 
