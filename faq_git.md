@@ -113,7 +113,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## set end-of-line type
-~/.gitconfig:
+`~/.gitconfig`:
 [core]
 	autocrlf = input
 
