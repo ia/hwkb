@@ -113,6 +113,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## set end-of-line type
+TBA
 
 
 ## ignore files (global setting):
