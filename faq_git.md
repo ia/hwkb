@@ -113,7 +113,9 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## set end-of-line type
-TBA
+~/.gitconfig:
+[core]
+	autocrlf = input
 
 
 ## ignore files (global setting):
