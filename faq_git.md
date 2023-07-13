@@ -112,6 +112,9 @@ $ git  symbolic-ref  --short  HEAD
 ```
 
 
+## set end-of-line type
+
+
 ## ignore files (global setting):
   * add to `core` section of `~/.gitconfig` file:
 ```
