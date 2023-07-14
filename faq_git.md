@@ -144,6 +144,9 @@ cscope.po.out
 ```
 
 
+## Editor
+
+
 ## GNU/Linux key ring integration
   * add to `credential` section of `~/.gitconfig` file:
 ```
