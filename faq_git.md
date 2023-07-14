@@ -112,6 +112,11 @@ $ git  symbolic-ref  --short  HEAD
 ```
 
 
+
+
+# Configuration
+
+
 ## set end-of-line type
 `~/.gitconfig`:
 [core]
