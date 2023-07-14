@@ -119,8 +119,10 @@ $ git  symbolic-ref  --short  HEAD
 
 ## set end-of-line type
 `~/.gitconfig`:
+```
 [core]
 	autocrlf = input
+```
 
 
 ## ignore files (global setting):
