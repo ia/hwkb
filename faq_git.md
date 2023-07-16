@@ -122,6 +122,7 @@ $ git  symbolic-ref  --short  HEAD
 ```
 [core]
 	autocrlf = input
+	TBA
 ```
 
 
