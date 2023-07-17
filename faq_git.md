@@ -118,7 +118,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## set end-of-line type
-`~/.gitconfig`:
+  - add to `core` section of `~/.gitconfig` file:
 ```
 [core]
 	autocrlf = input
