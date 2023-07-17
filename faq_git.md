@@ -126,6 +126,8 @@ $ git  symbolic-ref  --short  HEAD
 ```
 
 
+## diff tool
+
 ## ignore files (global setting):
   * add to `core` section of `~/.gitconfig` file:
 ```
