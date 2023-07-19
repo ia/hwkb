@@ -126,7 +126,11 @@ $ git  symbolic-ref  --short  HEAD
 ```
 
 
+## editor
+
+
 ## diff tool
+
 
 ## ignore files (global setting):
   * add to `core` section of `~/.gitconfig` file:
@@ -145,9 +149,6 @@ cscope.in.out
 cscope.out
 cscope.po.out
 ```
-
-
-## Editor
 
 
 ## GNU/Linux key ring integration
