@@ -131,6 +131,8 @@ editor = COMMAND
 
 
 ## diff tool
+[diff]
+	tool = COMMAND
 
 
 ## ignore files (global setting):
