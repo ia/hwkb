@@ -129,6 +129,7 @@ $ git  symbolic-ref  --short  HEAD
 ## editor
 editor = COMMAND
 
+
 ## diff tool
 
 
