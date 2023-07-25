@@ -134,8 +134,10 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## diff tool
+```
 [diff]
 	tool = COMMAND
+```
 
 
 ## ignore files (global setting):
