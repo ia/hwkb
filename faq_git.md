@@ -134,6 +134,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## diff tool
+  * add to diff section:
 ```
 [diff]
 	tool = COMMAND
