@@ -127,6 +127,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## editor
+  * add to core section:
 ```
 [core]
 	editor = COMMAND
