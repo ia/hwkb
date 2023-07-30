@@ -135,7 +135,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## diff tool
-  * add to `diff` section of ~/.gitconfig file:
+  * add to `diff` section of `~/.gitconfig` file:
 ```
 [diff]
 	tool = COMMAND
