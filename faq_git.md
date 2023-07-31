@@ -127,6 +127,7 @@ $ git  symbolic-ref  --short  HEAD
 
 
 ## editor
+TBA: shell command
   * add to `core` section of `~/.gitconfig` file:
 ```
 [core]
