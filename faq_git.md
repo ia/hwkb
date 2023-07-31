@@ -136,6 +136,7 @@ TBA: shell command
 
 
 ## diff tool
+TBA: shell command
   * add to `diff` section of `~/.gitconfig` file:
 ```
 [diff]
