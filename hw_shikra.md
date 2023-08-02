@@ -35,7 +35,7 @@
 |  1  |      TX     |     TCK     |     SCK    | 13: ADBUS0 | 6:  CLK |
 |  2  |      RX     |     TDI     |     SDI    | 14: ADBUS1 | 2: MISO |
 |  3  |             |     TDO     |     SDO    | 15: ADBUS2 | 5: MOSI |
-|  4  |             |     TMS     |     *CS    | 16: ADBUS3 | 1:  /CS |
+|  4  |             |     TMS     |    \*CS    | 16: ADBUS3 | 1:  /CS |
 |  5  |             |             |            | 17: ADBUS4 |         |
 |  6  |             |             |            | 18: ADBUS5 |         |
 |  7  |             |             |            | 19: ADBUS6 |         |
