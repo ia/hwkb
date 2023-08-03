@@ -25,6 +25,7 @@
 - [ ] enable led using ftprog
 - [ ] configure pins using ftprog
 - [ ] pinout table(s)
+- [ ] other usages
 
 
 
