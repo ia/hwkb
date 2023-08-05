@@ -79,6 +79,9 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 ![Shikra schematic](../master/resources/shikra_schematic.png)  
 
 
+# FTDI setup (Windows)
+
+TBA
 
 
 ## Additional links
