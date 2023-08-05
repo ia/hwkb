@@ -83,6 +83,8 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 ## install drivers
 
+## configure pins
+
 TBA
 
 
