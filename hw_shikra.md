@@ -81,6 +81,8 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 # FTDI setup (Windows)
 
+## install drivers
+
 TBA
 
 
