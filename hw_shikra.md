@@ -85,8 +85,10 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 ## configure pins
 
-TBA
+# sigrok la
 
+TBA
+99843863328cbdc40641957c37cd89749e030d9e
 
 ## Additional links
 
