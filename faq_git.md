@@ -112,6 +112,8 @@ $ git  symbolic-ref  --short  HEAD
 ```
 
 
+## get detached status
+
 
 
 # Configuration
