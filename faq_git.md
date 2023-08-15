@@ -114,8 +114,8 @@ $ git  symbolic-ref  --short  HEAD
 
 ## get detached status
 ```
+$ git TBA
 ```
-TBA
 
 
 
