@@ -10,6 +10,7 @@
 
  * [TODO](#todo)
  * [Pinouts](#pinouts)
+   * [Overall]
  * [Software notes](#software-notes)
  * [Hardware info](#hardware-info)
  * [Additional links](#additional-links)
