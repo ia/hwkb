@@ -13,7 +13,7 @@ Obvious notes and trivial scripts related to embedded hardware
 
 ### Interfaces & Protocols
 
- - [SPI 101 FAQ](../master/faq_spi.md)
+ - [SPI 101 FAQ](../master/proto_spi.md)
 
 
 ### Hardware tools
