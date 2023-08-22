@@ -4,6 +4,9 @@
 
 # USB C basic info
 
+
+## Pinout
+
 ![USB-C pinout](../master/resources/usb/usb-c_pins.png)  
 
 
