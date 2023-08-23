@@ -101,8 +101,7 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 - connect LA/Channel 0 to USB-UART TX pin
 - connect USB-UART converter to PC
 - connect LA to PC
-- run terminal app:
-$ picocom  --baud 9600  --databits 8  --parity n  --flow n  --stopbits 1  --echo /dev/ttyUSB0
+- run terminal app: `$ picocom  --baud 9600  --databits 8  --parity n  --flow n  --stopbits 1  --echo /dev/ttyUSB0`
 - setup LA software tool: max frequency, one channel, ~one minute / 100 M samples
 - run capture & type any ascii text like "testing testing"
 - once capture is stopped, configure LA SW tool to decode UART protocol using the settings based on picocom configuration from the above
