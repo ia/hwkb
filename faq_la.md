@@ -16,8 +16,8 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 #### Notes:
 - latest version (Aug-2023): 1.2.40
 - new HW rev. doesn't work with v1.X
-- to unpack AppImage: ./Logic-1.2.40-Linux.AppImage --appimage-extract
-- configs location is: ~/.config/Logic or ~/.local/share/Logic
+- to unpack AppImage: `./Logic-1.2.40-Linux.AppImage --appimage-extract`
+- configs location is: `~/.config/Logic` or `~/.local/share/Logic`
 - "decoded protocols panel" is removed
 - for Windows:
   - install drivers (i.e., from zip or follow https://support.saleae.com/logic-software/driver-install)
