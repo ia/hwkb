@@ -21,6 +21,13 @@
 
 
 
+# Reading data from CC pin
+
+TBA (PoC WiP but tested & worked)
+
+
+
+
 # Links
 
 * [All About USB-C series](https://hackaday.com/series_of_posts/all-about-usb-c) (TBA: add sublinks to series)
