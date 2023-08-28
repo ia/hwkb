@@ -108,3 +108,8 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 - if "testing" is successfully decoded then the setup is good to go for further discovery of the unkown signals & protocols over the wires
 
 
+## DSLogic Plus firmware
+
+TBA
+
+
