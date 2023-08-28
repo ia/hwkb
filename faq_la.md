@@ -110,6 +110,8 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 
 ## DSLogic Plus firmware
 
-TBA
+- download files and rename them:
+  - TBA
+- place files to `sigrok` location (TBA)
 
 
