@@ -1,0 +1,2 @@
+0ebc84bf40cf1f9c60998794bc3dba1f  dreamsourcelab-dslogic-plus-fpga.fw
+6f1805fcb5040498ae1b522a7defae5d  dreamsourcelab-dslogic-plus-fx2.fw
