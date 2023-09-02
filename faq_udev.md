@@ -4,3 +4,6 @@
 # Static names for devices using `udev` rules
 
 
+# Permission settings for devices
+
+
