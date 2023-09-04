@@ -15,7 +15,7 @@ This note should be applicable to any modern GNU/Linux distro.
 $ sudo  gpasswd  -a ${USER}  dialout
 
 - to get access to device which using `usb` subsystem without root/`sudo`, add your user to `plugdev` group:
-TBA
+$ sudo  gpasswd  -a ${USER}  plugdev
 
 
 
