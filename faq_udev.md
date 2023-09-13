@@ -24,6 +24,7 @@ or
 or
 `$ sudo  usermod  -a  -G plugdev  ${USER}`
 
+
 ## Generic permission udev rules for devices
 
 TBA
