@@ -12,6 +12,7 @@ TBA
 
 # Permission settings for devices
 
+
 ## Group policies
 
 - to get access to device which using `tty` subsystem without root/`sudo`, add your user to `dialout` group:
