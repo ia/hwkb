@@ -17,7 +17,7 @@ TBA
 
 - to get access to device which using `tty` subsystem without root/`sudo`, add your user to `dialout` group:  
 `$ sudo  gpasswd  -a ${USER}  dialout`  
-or
+or  
 `$ sudo  usermod  -a  -G dialout  ${USER}`
 
 - to get access to device which using `usb` subsystem without root/`sudo`, add your user to `plugdev` group:  
