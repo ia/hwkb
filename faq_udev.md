@@ -21,7 +21,7 @@ or
 `$ sudo  usermod  -a  -G dialout  ${USER}`
 
 - to get access to device which using `usb` subsystem without root/`sudo`, add your user to `plugdev` group:  
-`$ sudo  gpasswd  -a ${USER}  plugdev`
+`$ sudo  gpasswd  -a ${USER}  plugdev`  
 or
 `$ sudo  usermod  -a  -G plugdev  ${USER}`
 
