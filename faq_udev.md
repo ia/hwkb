@@ -28,6 +28,6 @@ or
 
 ## Generic permission udev rules for devices
 
-TBA
+`SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", MODE="0664", GROUP="plugdev"`
 
 
