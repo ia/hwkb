@@ -28,6 +28,7 @@ or
 
 ## Generic permission udev rules for devices
 
+- to set permissions add this line:
 `SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", MODE="0664", GROUP="plugdev"`
 
 
