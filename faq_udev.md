@@ -5,8 +5,7 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Static names for devices using `udev` rules
 
-TBA
-
+`SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", SYMLINK+="name"`
 
 
 
