@@ -5,7 +5,7 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Static names for devices using `udev` rules
 
-- to set a static custom name for a device, add this line:  
+- to set a static custom name for a device, create file inside `/etc/udev/rules.d` directory and  add this line:  
 `SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", SYMLINK+="name"`
 
 
