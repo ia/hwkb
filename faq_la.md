@@ -112,6 +112,6 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 
 - if there is a message like `TBA` then firmware is missing
 - download fpga/bin & fx2/fw files
-- place files to `sigrok` location (TBA)
+- place files to `usr/share/sigrok-firmware` location
 
 
