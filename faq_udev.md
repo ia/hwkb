@@ -9,6 +9,7 @@ This note should be applicable to any modern GNU/Linux distro.
 `SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", SYMLINK+="name"`
 
 - to ignore `Modem Manager` probing a device, add this line:  
+`ATTRS{idVendor}=="____", ATTRS{idProduct}=="____", ENV{ID_MM_DEVICE_IGNORE}="1", ENV{ID_MM_TTY_BLACKLIST}="1", ENV{MTP_NO_PROBE}="1", ENV{ID_MM_PORT_IGNORE}="1", ENV{ID_MM_TTY_MANUAL_SCAN_ONLY}="1"`
 
 
 # Permission settings for devices
