@@ -111,7 +111,7 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 ## DSLogic Plus firmware
 
 - if there is a message like `TBA` then firmware is missing
-- download `fpga/bin` & `fx2/fw` files
+- download [`fpga/bin`](../master/resources/blobs/dslogic-plus/v0.97/dreamsourcelab-dslogic-plus-fpga.fw) & `fx2/fw` files
 - place files to `usr/share/sigrok-firmware` location
 
 
