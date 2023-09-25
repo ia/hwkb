@@ -1,3 +1,4 @@
+# Ethernet protocol & gnulinux network configuration notes
 
 # DRAFT
 
