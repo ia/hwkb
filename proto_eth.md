@@ -37,4 +37,6 @@ SIOCETHTOOL
 
 # TBA:
 
+canonical names for ifaces
+
 
