@@ -38,5 +38,6 @@ SIOCETHTOOL
 # TBA:
 
 canonical names for ifaces
+udev rules for net
 
 
