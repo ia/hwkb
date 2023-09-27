@@ -37,7 +37,7 @@ SIOCETHTOOL
 
 # TBA:
 
-canonical names for ifaces
+canonical names for ifaces: net.ifnames=0  biosdevname=0
 udev rules for net
 
 
