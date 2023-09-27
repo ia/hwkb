@@ -37,7 +37,11 @@ SIOCETHTOOL
 
 # TBA:
 
-canonical names for ifaces: net.ifnames=0  biosdevname=0
-udev rules for net
+canonical names for ifaces:
+net.ifnames=0  biosdevname=0
+
+udev rules for net:
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="wlan*", NAME="wlan0"
 
 
