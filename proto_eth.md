@@ -39,6 +39,7 @@ SIOCETHTOOL
 
 canonical names for ifaces:
 /etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT
 net.ifnames=0  biosdevname=0
 
 udev rules for net:
