@@ -1,6 +1,9 @@
 # Ethernet protocol & gnulinux network configuration notes
 
-# DRAFT
+## Basic status
+
+### Check interfaces
+
 
 ip address
 ip link
