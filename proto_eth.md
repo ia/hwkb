@@ -4,6 +4,7 @@
 
 ### Check interfaces
 
+**WARNING: `ifconfig` is deprecated!**
 
 ip address
 ip link
