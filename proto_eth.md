@@ -7,8 +7,9 @@
 **WARNING: `ifconfig` is deprecated!**
 
 - to check status of network interfaces, run:
-ip address
-ip link
+`ip address`
+or
+`ip link`
 
 
 networkctl status enp0s25
