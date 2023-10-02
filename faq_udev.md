@@ -17,6 +17,9 @@ This note should be applicable to any modern GNU/Linux distro.
 - to run command on insert of a device:
 `ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="____", ATTR{idProduct}=="____", ENV{ID_MODEL}=="____", RUN+="/full/path/to/script/with/x/bits"`
 
+```
+$ cat /full/path/to/script/with/x/bits
+```
 TBA
 
 
