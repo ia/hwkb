@@ -12,6 +12,11 @@ This note should be applicable to any modern GNU/Linux distro.
 `ATTRS{idVendor}=="____", ATTRS{idProduct}=="____", ENV{ID_MM_DEVICE_IGNORE}="1", ENV{ID_MM_TTY_BLACKLIST}="1", ENV{MTP_NO_PROBE}="1", ENV{ID_MM_PORT_IGNORE}="1", ENV{ID_MM_TTY_MANUAL_SCAN_ONLY}="1"`
 
 
+# Execute script/app on inserting specific device
+
+TBA
+
+
 # Permission settings for devices
 
 
