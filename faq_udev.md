@@ -14,6 +14,9 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Execute script/app on inserting specific device
 
+- to run command on insert of a device:
+`ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="____", ATTR{idProduct}=="____", ENV{ID_MODEL}=="____", RUN+="/full/path/to/script/with/x/bits"`
+
 TBA
 
 
