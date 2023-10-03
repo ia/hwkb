@@ -24,7 +24,8 @@ $ cat /full/path/to/script/with/x/bits
 # run command as root:
 command
 
-
+# run GUI app as a user:
+su LOCAL_USER_NAME -c "DISPLAY=:0.0 /full/path/to/GUI/APP" &
 ```
 TBA
 
