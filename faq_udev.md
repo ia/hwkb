@@ -19,6 +19,12 @@ This note should be applicable to any modern GNU/Linux distro.
 
 ```
 $ cat /full/path/to/script/with/x/bits
+#!/usr/bin/env bash
+
+# run command as root:
+command
+
+
 ```
 TBA
 
