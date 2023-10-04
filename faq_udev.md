@@ -3,6 +3,9 @@
 This note should be applicable to any modern GNU/Linux distro.
 
 
+# Basic commands to control & monitor `udev`
+
+
 # Static names for devices using `udev` rules
 
 - to set a static custom name for a device, create file inside `/etc/udev/rules.d` directory and add this line:  
