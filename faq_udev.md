@@ -5,6 +5,7 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Basic commands to control & monitor `udev`
 
+udevadm monitor --environment --udev
 TBA
 
 
