@@ -5,6 +5,8 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Basic commands to control & monitor `udev`
 
+TBA
+
 
 # Static names for devices using `udev` rules
 
