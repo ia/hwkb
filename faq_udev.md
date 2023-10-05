@@ -5,6 +5,7 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Basic commands to control & monitor `udev`
 
+- apply rules & trigger udev:
 sudo udevadm control --reload-rules && sudo udevadm trigger
 udevadm monitor --environment --udev
 TBA
