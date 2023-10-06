@@ -9,7 +9,7 @@ This note should be applicable to any modern GNU/Linux distro.
 `$ sudo udevadm control --reload-rules && sudo udevadm trigger`
 
 - monitor events in real time:
-udevadm monitor --environment --udev
+`udevadm monitor --environment --udev`
 
 TBA
 
