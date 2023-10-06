@@ -11,8 +11,6 @@ This note should be applicable to any modern GNU/Linux distro.
 - monitor events in real time:
 `udevadm monitor --environment --udev`
 
-TBA
-
 
 # Static names for devices using `udev` rules
 
