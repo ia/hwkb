@@ -6,10 +6,10 @@ This note should be applicable to any modern GNU/Linux distro.
 # Basic commands to control & monitor `udev`
 
 - apply rules & trigger udev:  
-`$ sudo udevadm control --reload-rules && sudo udevadm trigger`
+`$ sudo  udevadm  control --reload-rules  &&  sudo  udevadm  trigger`
 
 - monitor events in real time:  
-`$ udevadm monitor --udev [--environment]`
+`$ udevadm  monitor  --udev  [--environment]`
 
 
 # Static names for devices using `udev` rules
