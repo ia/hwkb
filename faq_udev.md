@@ -11,8 +11,8 @@ This note should be applicable to any modern GNU/Linux distro.
 - monitor events in real time:  
 `$ udevadm  monitor  --udev  [--environment]`
 
-- dump information about specific _DEVICE_:
-udevadm  info  -a  -n  /dev/DEVICE
+- dump information about specific _DEVICE_:  
+`$ udevadm  info  -a  -n  /dev/DEVICE`
 
 
 # Static names for devices using `udev` rules
