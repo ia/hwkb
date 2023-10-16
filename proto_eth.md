@@ -19,6 +19,7 @@ networkctl status enp0s25
 - set packet forwarding:
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
+- set promisc mode for network interface:
 sudo ip link set enp0s25 promisc on
 
 sudo service systemd-networkd status
