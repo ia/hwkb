@@ -16,6 +16,7 @@ networkctl status enp0s25
 
 ## Listening traffic
 
+- set packet forwarding:
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
 sudo ip link set enp0s25 promisc on
