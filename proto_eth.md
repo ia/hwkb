@@ -14,6 +14,7 @@ or
 
 networkctl status enp0s25
 
+## Listening traffic
 
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
