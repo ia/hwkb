@@ -43,7 +43,6 @@ su LOCAL_USER_NAME -c "DISPLAY=:0.0 /full/path/to/GUI/APP" &
 # return to caller:
 exit 0
 ```
-TBA
 
 
 # Permission settings for devices
