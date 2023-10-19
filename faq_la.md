@@ -93,7 +93,8 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 - download [PulseView 0.4.2 AppImage](https://sigrok.org/download/binary/pulseview/PulseView-0.4.2-x86_64.AppImage)
 - extract image:  
 `chmod a+x PulseView-0.4.2-x86_64.AppImage && ./PulseView-0.4.2-x86_64.AppImage --appimage-extract`
-- patch sources: `usr/share/libsigrokdecode/decoders/signature/pd.py : 138: incoming = (bin(shiftreg & 0x0291).count('1') + data) & 1`
+- patch sources - line 138 in `pd.py` should be look like this:  
+`usr/share/libsigrokdecode/decoders/signature/pd.py : 138: incoming = (bin(shiftreg & 0x0291).count('1') + data) & 1`
 - `./AppRun`
 
 
