@@ -91,7 +91,8 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 ## PulseView stable release on Ubuntu 18.04 LTS
 
 - download [PulseView 0.4.2 AppImage](https://sigrok.org/download/binary/pulseview/PulseView-0.4.2-x86_64.AppImage)
-- extract image: `--appimage-extract`
+- extract image:  
+`chmod a+x PulseView-0.4.2-x86_64.AppImage && ./PulseView-0.4.2-x86_64.AppImage --appimage-extract`
 - patch sources: `usr/share/libsigrokdecode/decoders/signature/pd.py : 138: incoming = (bin(shiftreg & 0x0291).count('1') + data) & 1`
 - `./AppRun`
 
