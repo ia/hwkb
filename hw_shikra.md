@@ -86,10 +86,6 @@ $ sudo flashrom -p ft2232_spi:type=232H -r OUTPUT_FILE
 
 ## configure pins
 
-# sigrok la
-
-TBA
-
 ## Additional links
 
  - [Shop](https://int3.cc/products/the-shikra)
