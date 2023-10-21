@@ -118,6 +118,13 @@ $ git TBA
 ```
 
 
+## get list of commits inside branch:
+```
+$ git  log  --oneline  main..branch
+```
+
+
+
 
 # Configuration
 
