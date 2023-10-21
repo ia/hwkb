@@ -124,6 +124,12 @@ $ git  log  --oneline  main..branch
 ```
 
 
+## get list of files changed during commits inside branch:
+```
+$ git  log  --oneline  main..branch  --names-only
+```
+
+
 
 
 # Configuration
