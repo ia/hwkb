@@ -6,7 +6,7 @@
 
 **WARNING: `ifconfig` is deprecated!**
 
-- to check status of network interfaces, run:
+- to check status of network interfaces using `ip` tool, run:
 ```ip address```
 or
 ```ip link```
