@@ -11,8 +11,11 @@
 or
 ```ip link```
 
+- checking status of network interfaces using `networkctl` tool:
+```
+networkctl status INTERFACE_NAME
+```
 
-networkctl status enp0s25
 
 ## Listening traffic
 
