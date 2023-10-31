@@ -7,13 +7,13 @@
 **WARNING: `ifconfig` is deprecated!**
 
 - checking status of network interfaces using `ip` tool:
-```ip address```
+```$ ip address```
 or
-```ip link```
+```$ ip link```
 
 - checking status of network interfaces using `networkctl` tool:
 ```
-networkctl status INTERFACE_NAME
+$ networkctl status INTERFACE_NAME
 ```
 
 
