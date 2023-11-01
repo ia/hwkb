@@ -19,6 +19,8 @@ $ networkctl status INTERFACE_NAME
 
 ## Listening traffic
 
+To listen traffic (aka _"sniffing"_), these two steps should be performed:
+
 - set packet forwarding:
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
