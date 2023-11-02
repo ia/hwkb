@@ -13,7 +13,7 @@ or
 
 - checking status of network interfaces using `networkctl` tool:
 ```
-$ networkctl status INTERFACE_NAME
+$ networkctl status IFNAME
 ```
 
 
@@ -22,10 +22,14 @@ $ networkctl status INTERFACE_NAME
 To listen traffic (aka _"sniffing"_), these two steps should be performed:
 
 - set packet forwarding:
-echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+```
+$ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+```
 
 - set promisc mode for network interface:
-sudo ip link set enp0s25 promisc on
+```
+sudo ip link set IFNAME promisc on
+```
 
 sudo service systemd-networkd status
 
