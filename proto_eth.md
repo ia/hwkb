@@ -16,6 +16,10 @@ or
 $ networkctl status IFNAME
 ```
 
+- checking status of ntework using `systemd` tool:
+```
+$ sudo service systemd-networkd status
+```
 
 ## Listening traffic
 
@@ -31,7 +35,6 @@ $ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 sudo ip link set IFNAME promisc on
 ```
 
-sudo service systemd-networkd status
 
 /etc/netplan/01-network-manager-all.yaml
 sudo netplan apply
