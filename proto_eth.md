@@ -36,12 +36,14 @@ sudo ip link set IFNAME promisc on
 ```
 
 
-/etc/netplan/01-network-manager-all.yaml
-sudo netplan apply
+## Config locations related to network settings:
 
-/etc/udev/rules.d/
-/var/lib/udev/
+- `/etc/netplan/01-network-manager-all.yaml`
+- `/etc/udev/rules.d/`
+- `/var/lib/udev/`
 
+
+---
 
 nmcli con up id eth.tap
 
