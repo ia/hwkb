@@ -35,10 +35,9 @@ $ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 sudo ip link set IFNAME promisc on
 ```
 
-- run `tcpdump`:
+- run `tcpdump` to capture packets fully:
 ```
-$ sudo tcpdump -i eth1 -nn -XX -vvv -s0 -S -e dst 192.168.1.1
-$ sudo tcpdump -vvvnnvXS -s 0 port 1234 -i lo
+$ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 ```
 
 
