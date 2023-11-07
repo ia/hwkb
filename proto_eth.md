@@ -50,17 +50,12 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 
 ---
 
-nmcli con up id eth.tap
+# DRAFT
 
-
-- nc -l localhost 1234
-- nc localhost 1234
-
+TBA:
 
 sudo ethtool enp0s25
 SIOCETHTOOL
-
-# TBA:
 
 canonical names for ifaces:
 /etc/default/grub
@@ -70,7 +65,5 @@ net.ifnames=0  biosdevname=0
 udev rules for net:
 SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
 SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="wlan*", NAME="wlan0"
-
-netplan
 
 
