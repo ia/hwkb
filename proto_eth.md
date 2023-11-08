@@ -48,6 +48,10 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 - `/var/lib/udev/`
 
 
+## Static canonical predictable names of network interfaces
+
+TBA
+
 ---
 
 # DRAFT
