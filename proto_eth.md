@@ -50,7 +50,7 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 
 ## Static canonical predictable names of network interfaces
 
-TBA
+- add `net.ifnames=0  biosdevname=0` options to `GRUB_CMDLINE_LINUX_DEFAULT` variable inside `/etc/default/grub` configuration file
 
 ---
 
@@ -60,11 +60,6 @@ TBA:
 
 sudo ethtool enp0s25
 SIOCETHTOOL
-
-canonical names for ifaces:
-/etc/default/grub
-GRUB_CMDLINE_LINUX_DEFAULT
-net.ifnames=0  biosdevname=0
 
 udev rules for net:
 SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
