@@ -51,8 +51,10 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 ## Static canonical predictable names of network interfaces
 
 - add `net.ifnames=0  biosdevname=0` options to `GRUB_CMDLINE_LINUX_DEFAULT` variable inside `/etc/default/grub` configuration file
-- optionally, to name interface based on MAC address, add udev rule:
+- optionally, to name interface based on MAC address, add `udev` rule like:
+```
 SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="em0"
+```
 
 ---
 
@@ -62,5 +64,4 @@ TBA:
 
 sudo ethtool enp0s25
 SIOCETHTOOL
-
 
