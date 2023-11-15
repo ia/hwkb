@@ -1,6 +1,8 @@
 # Ethernet protocol & gnulinux network configuration notes
 
+
 ## Basic status
+
 
 ### Check interfaces
 
@@ -20,6 +22,17 @@ $ networkctl status IFNAME
 ```
 $ sudo service systemd-networkd status
 ```
+
+
+### Check detailed capabilities
+
+- checking detailed physical capabilities of network interface using ethtool:
+```
+$ sudo  ethtool  IFNAME
+```
+
+`SIOCETHTOOL`
+
 
 ## Listening traffic
 
@@ -56,12 +69,4 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:__", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="em0"
 ```
 
----
-
-# DRAFT
-
-TBA:
-
-sudo ethtool enp0s25
-SIOCETHTOOL
 
