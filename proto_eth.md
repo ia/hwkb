@@ -9,9 +9,10 @@
 **WARNING: `ifconfig` is deprecated!**
 
 - checking status of network interfaces using `ip` tool:
-```$ ip address```
-or
-```$ ip link```
+```
+$ ip address
+$ ip link
+```
 
 - checking status of network interfaces using `networkctl` tool:
 ```
