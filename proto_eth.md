@@ -32,7 +32,7 @@ $ sudo service systemd-networkd status
 $ sudo  ethtool  IFNAME
 ```
 **NOTE**: _`ethtool` using set of `ioctl`'s (such as `SIOCETHTOOL` for media physical speed)
-to get additional information which can't be provided by any other default tools'_.
+to get additional information which can't be provided by any other default tools_.
 
 
 ## Listening traffic
