@@ -88,6 +88,12 @@ $ git  push  origin  -d  BRANCH_TO_DELETE
 # Management
 
 
+## revert uncommitted changes in a particular local file:
+```
+$ git  checkout  --  FILE_NAME
+```
+
+
 ## full local state reset:
 ```
 $ git  reset  --hard  &&  git  clean  -x -f -d
