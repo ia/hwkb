@@ -10,18 +10,18 @@
 
 - checking status of network interfaces using `ip` tool:
 ```
-$ ip address
-$ ip link
+$ ip  address
+$ ip  link
 ```
 
 - checking status of network interfaces using `networkctl` tool:
 ```
-$ networkctl status IFNAME
+$ networkctl  status  IFNAME
 ```
 
 - checking status of ntework using `systemd` tool:
 ```
-$ sudo service systemd-networkd status
+$ sudo  service  systemd-networkd  status
 ```
 
 
