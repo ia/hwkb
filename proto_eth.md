@@ -41,12 +41,12 @@ To listen traffic (aka _"sniffing"_), these two steps should be performed:
 
 - set packet forwarding:
 ```
-$ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+$ echo  1  |  sudo  tee  /proc/sys/net/ipv4/ip_forward
 ```
 
 - set promisc mode for network interface:
 ```
-sudo ip link set IFNAME promisc on
+$ sudo  ip  link  set  IFNAME  promisc  on
 ```
 
 - run `tcpdump` to capture packets fully:
