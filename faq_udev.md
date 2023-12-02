@@ -26,7 +26,7 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Execute script/app on inserting specific device
 
-- to run command on insert of a device:
+- to run command on insert of a device:  
 `ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="____", ATTR{idProduct}=="____", ENV{ID_MODEL}=="____", RUN+="/full/path/to/script/with/x/bits"`
 
 - content of script:
@@ -63,7 +63,7 @@ or
 
 ## Generic permission udev rules for devices
 
-- to set permissions add this line:  
+- add this line to set permissions:  
 `SUBSYSTEM=="tty", ATTRS{bcdDevice}=="____", ATTRS{idProduct}=="____", ATTRS{idVendor}=="____", ATTRS{product}=="____", ATTRS{removable}=="removable", ATTRS{version}=="____", MODE="0664", GROUP="plugdev"`
 
 
