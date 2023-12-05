@@ -72,7 +72,7 @@ nothing to commit, working tree clean
 ```
   * then just do:
 ```
-$ git rebase --abort
+$ git  rebase  --abort
 ```
 
 
