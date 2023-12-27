@@ -88,16 +88,23 @@ $ git  push  origin  -d  BRANCH_TO_DELETE
 # Management
 
 
+## full local state reset:
+```
+$ git  reset  --hard  &&  git  clean  -x -f -d
+```
+
+
 ## revert uncommitted changes in a particular local file:
 ```
 $ git  checkout  --  FILE_NAME
 ```
 
 
-## full local state reset:
+## get a particular local file from a particular commit:
 ```
-$ git  reset  --hard  &&  git  clean  -x -f -d
+$ git  show  ID:path/to/file
 ```
+where `ID` is _SHA ID_ of a commit or a branch name.
 
 
 ## get short SHA ID of the latest commit:
