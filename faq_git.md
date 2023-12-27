@@ -37,7 +37,7 @@ Optionally (???):
 ```
 $ git  merge  upstream/master  master
 ```
-or
+or:
 ```
 $ git  rebase  upstream/master
 ```
