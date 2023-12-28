@@ -38,7 +38,6 @@ Optionally (???):
 $ git  merge  upstream/master  master
 ```
 or:
-```
 $ git  rebase  upstream/master
 ```
 
@@ -91,6 +90,12 @@ $ git  push  origin  -d  BRANCH_TO_DELETE
 ## full local state reset:
 ```
 $ git  reset  --hard  &&  git  clean  -x -f -d
+```
+
+
+## undo created commit:
+```
+$ git  revert  SHA_ID
 ```
 
 
