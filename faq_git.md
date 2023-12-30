@@ -100,6 +100,13 @@ $ git  checkout  --  FILE_NAME
 ```
 
 
+## revert a commit:
+  * revert a commit by creating additional commit in history:
+```
+$ git  revert  SHA_ID
+```
+
+
 ## get a particular local file from a particular commit:
 ```
 $ git  show  ID:path/to/file
@@ -208,7 +215,7 @@ cscope.po.out
 
 
 ## Wiki update
-
+uncommitted changes in a particular local file:
 - create wiki for your cloned project
 - clone wiki from forked repo and add remote for upstream:
 ```
