@@ -106,6 +106,11 @@ $ git  checkout  --  FILE_NAME
 $ git  revert  SHA_ID
 ```
 
+  * revert a commit by **modifying** commit history:
+```
+$ git  reset  --hard HEAD~1
+```
+
 
 ## get a particular local file from a particular commit:
 ```
