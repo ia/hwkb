@@ -101,14 +101,15 @@ Basic notes regarding logic analyzers, its software & hardware nuances & howtos.
 
 ## Fast checking logic analyzer using any USB-UART converter
 
-- connect LA/Channel 0 to USB-UART TX pin
-- connect USB-UART converter to PC
-- connect LA to PC
-- run terminal app: `$ picocom  --baud 9600  --databits 8  --parity n  --flow n  --stopbits 1  --echo /dev/ttyUSB0`
-- setup LA software tool: max frequency, one channel, ~one minute / 100 M samples
-- run capture & type any ascii text like "testing testing"
-- once capture is stopped, configure LA SW tool to decode UART protocol using the settings based on picocom configuration from the above
-- if "testing" is successfully decoded then the setup is good to go for further discovery of the unkown signals & protocols over the wires
+- connect **`LA/Channel 0`** to **`TX`** pin of `USB-UART converter`
+- connect `USB-UART converter` to `PC`
+- connect `LA` to `PC`
+- run terminal app:  
+`$ picocom  --baud 9600  --databits 8  --parity n  --flow n  --stopbits 1  --echo /dev/ttyUSB0`
+- setup `LA` software tool: _max frequency, one channel, ~one minute / 100 M samples_
+- run capture & type any ascii text like `testing testing`
+- once capture is stopped, configure `LA SW tool` to decode `UART` protocol using the settings based on a terminal app configuration (i.e., like from the above for `picocom`)
+- if `testing` _ASCII_ text is successfully decoded then the setup is good to go for further discovery of the unkown signals & protocols over the wires
 
 
 ## DSLogic Plus firmware
