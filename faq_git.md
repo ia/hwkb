@@ -5,6 +5,21 @@
 TBA
 
 
+
+
+# Basics
+
+
+## clone repo:
+```
+$ git  clone  --recursive  REPO_ADDRESS
+```
+  * REPO_ADDRESS - url/path to git repo
+  * `--recursive` - option to download submodules (nested git repos included in a repo)
+
+
+
+
 # Branch
 
 
