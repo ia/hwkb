@@ -25,6 +25,13 @@ $ git  pull
   * `pull` = `fetch` + `merge`
 
 
+## update meta info of remote repo origin:
+```
+$ git  fetch  ORIGIN
+```
+
+
+
 
 # Branch
 
@@ -53,7 +60,7 @@ $ git  push  -u  origin  LOCAL_BRANCH
 ```
 
 
-## add upstream meta info into local forked repo:
+## add upstream meta info (additional origin) into local forked repo:
 ```
 $ git  remote  add  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 $ git  fetch  upstream
