@@ -18,6 +18,12 @@ $ git  clone  --recursive  REPO_ADDRESS
   * `--recursive` - option to download submodules (nested git repos included in a repo)
 
 
+## update cloned repo:
+```
+$ git  pull
+```
+  * `pull` = `fetch` + `merge`
+
 
 
 # Branch
