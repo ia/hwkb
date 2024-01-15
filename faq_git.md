@@ -120,7 +120,12 @@ $ git  push  origin  -d  BRANCH_TO_DELETE
 
 # Submodules
 
-TBA
+
+## download submodules inside local cloned repo:
+```
+$ git  submodule  update  --init  [--recursive]
+```
+  * `--recursive` - option to download submodules (nested git repos included in a repo)
 
 
 
