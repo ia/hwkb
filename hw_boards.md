@@ -1,9 +1,13 @@
 
 
-# Notes about periphery boards/pre-assembled units [which are widely available for misc projects]
+# Periphery boards and pre-assembled units
+
+This document describes ready-to-use PCBs which are widely available to apply in different hardware projects for different purposes.
 
 
-## TTP223 with touch sensor without I/O line
+
+
+## TTP223-based touch sensor (w/o I/O line)
 
 TBA
 
