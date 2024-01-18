@@ -12,7 +12,7 @@ This document describes ready-to-use PCBs which are widely available to apply in
 
 ### Description
 
-TBA: image
+![TTP223-based touch sensor board](../master/resources/boards/ttp223-touch.png)  
 
 |    pin    |       info       |
 |:---------:|:-----------------|
