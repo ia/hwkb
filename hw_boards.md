@@ -7,6 +7,26 @@ This document describes ready-to-use PCBs which are widely available to apply in
 
 
 
+## USB-C DC power trigger
+
+
+### Description
+
+TBA
+
+
+### Notes
+
+TBA
+
+
+### Applications
+
+TBA
+
+
+
+
 ## TTP223-based touch sensor (w/o I/O line)
 
 
