@@ -9,6 +9,8 @@ This document describes ready-to-use PCBs which are widely available to apply in
 
 ## USB-C DC power trigger
 
+![USB-C DC power trigger board](../master/resources/boards/usbc-dc.png)  
+
 
 ### Description
 
