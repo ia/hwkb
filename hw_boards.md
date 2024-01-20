@@ -29,10 +29,10 @@ TBA
 
 ## TTP223-based touch sensor (w/o I/O line)
 
+![TTP223-based touch sensor board](../master/resources/boards/ttp223-touch.png)  
+
 
 ### Description
-
-![TTP223-based touch sensor board](../master/resources/boards/ttp223-touch.png)  
 
 |    pin    |       info       |
 |:---------:|:-----------------|
