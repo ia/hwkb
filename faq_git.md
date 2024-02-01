@@ -128,6 +128,13 @@ $ git  submodule  update  --init  [--recursive]
   * `--recursive` - option to download submodules (nested git repos included in a repo)
 
 
+## add a submodule inside local cloned repo:
+```
+$ git  submodule  add  -b BRANCH_TO_FETCH  REPO_ADDRESS
+$ git  submodule  init
+```
+
+
 
 
 # Management
