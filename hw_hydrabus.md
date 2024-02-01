@@ -249,7 +249,7 @@ PC-J3 |_**|**
 ## Getting started
 
 
-Express tutorials for GnuLinux/Ubuntu box
+This section contains express tutorials for GNULinux/Ubuntu box.
 
 
 ### Prepare environment
@@ -305,7 +305,7 @@ $ python3  -m pip  install  GitPython intelhex pyHydrabus  --upgrade
 
 ### Build firmware
 
- - download firmware source and 3rd party components (chibios, tokenline & python-hydrabus):
+ - download firmware source and 3rd party components (`chibios`, `tokenline` & `python-hydrabus`):
 ```
 $ git  clone  git@ssh.github.com:hydrabus/hydrafw.git
 $ cd  hydrafw
@@ -479,9 +479,9 @@ Clearing PA4
 ### Dump SPI flash
 
  - connect pins from the device to a flash chip according to [SPI](#spi) table
- - `flashrom` usage (dump flash):
+ - run `flashrom` to read data from flash storage:
 ```
-$ flashrom -p serprog:dev=/dev/hydrabus -r DUMP.bin
+$ flashrom  -p serprog:dev=/dev/hydrabus  -r DUMP.bin
 
 LOG OUTPUT TBA
 ```
