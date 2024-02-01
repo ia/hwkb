@@ -51,7 +51,9 @@
     * [Dump SPI flash](#dump-spi-flash)
     * [Logic analyzer](#logic-analyzer)
  * [Hardware info](#hardware-info)
- * [Additional links](#additional-links) 
+ * [Links](#links)
+    * [Official links](#official-links)
+    * [Additional links](#additional-links)
 
 
 
@@ -518,11 +520,17 @@ LOG OUTPUT TBA
 
 
 
-## Additional links
+# Links
+
+
+## Official links
 
  - [Blog](https://hydrabus.com)
  - [Shop](https://hydrabus.com/buy-online)
 
 
+## Additional links
+
+TBA
 
 
