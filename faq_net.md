@@ -35,7 +35,12 @@ $ sudo  ethtool  IFNAME
 to get additional information which can't be provided by any other default tools_.
 
 
+
+
 ## Listening traffic
+
+
+### Wire
 
 To listen traffic (aka _"sniffing"_), these two steps should be performed:
 
@@ -55,11 +60,15 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 ```
 
 
+
+
 ## Config locations related to network settings:
 
 - `/etc/netplan/01-network-manager-all.yaml`
 - `/etc/udev/rules.d/`
 - `/var/lib/udev/`
+
+
 
 
 ## Static canonical predictable names of network interfaces
