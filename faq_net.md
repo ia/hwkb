@@ -1,4 +1,4 @@
-# Ethernet protocol & gnulinux network configuration notes
+# GNULinux network configuration notes
 
 
 ## Basic status
