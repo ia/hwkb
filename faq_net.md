@@ -86,8 +86,8 @@ SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="__:__:__:__:__:_
 
 ### open port(s)
 ```
-$ sudo  iptables  -I INPUT   -p _**PROTO**_  --dport _**PORT**_  -j ACCEPT
-$ sudo  iptables  -I OUTPUT  -p _**PROTO**_  --sport _**PORT**_  -j ACCEPT
+$ sudo  iptables  -I INPUT   -p ${PROTO}  --dport ${PORT}  -j ACCEPT
+$ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ```
  * _**PROTO**_ - protocol: _tcp_ or _udp_
  * _**PORT**_  - port number
