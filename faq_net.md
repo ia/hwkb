@@ -35,6 +35,13 @@ $ sudo  ethtool  IFNAME
 to get additional information which can't be provided by any other default tools_.
 
 
+### Check network ports
+
+ - list open tcp ports using `netstat` (**DEPRECATED**): `$ sudo  netstat  -ntlp`
+  - _-n_ / _--numeric_ : show IP address instead of resolved host name
+  - _-t_ / _--tcp_ : show TCP ports only
+  - _-l_ / _--listening_ : show listening / open ports only
+  - _-p_ / _--programs_ : show PID / app name
 
 
 ## Listening traffic
