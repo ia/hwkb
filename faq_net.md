@@ -37,6 +37,7 @@ to get additional information which can't be provided by any other default tools
 
 ### Check network ports
 
+ - list open tcp ports using `ss`: `$ sudo  ss  -ntlp`
  - list open tcp ports using `netstat` (**DEPRECATED**): `$ sudo  netstat  -ntlp`
   - _-n_ / _--numeric_ : show IP address instead of resolved host name
   - _-t_ / _--tcp_ : show TCP ports only
