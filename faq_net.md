@@ -70,7 +70,7 @@ $ sudo  tcpdump  -i IFNAME  -nn  -XX  -vvv  -s0  -S  [-e FILTER RULE(S)]
 
 
 
-## Config locations related to network settings:
+## Configuration files and directories related to network settings
 
 - `/etc/netplan/01-network-manager-all.yaml`
 - `/etc/udev/rules.d/`
