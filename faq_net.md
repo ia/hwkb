@@ -132,5 +132,35 @@ $ curl  ifconfig.me
  - set web proxy setting in browser/environment on client IP as `IP/HOSTNAME:PORT`
 
 
+### Reverse SOCKS proxy
+
+ - pick port number for route and set it:
+```
+$ PORT_ROUTE=1234
+```
+ - pick port number for proxy and set it:
+```
+$ PORT_PROXY=5678
+```
+ - run `ssh` session on _NAT gateway_ host:
+```
+$ ssh  -R  ${PORT_ROUTE}:localhost:22  user@example.com
+```
+ - run `ssh` session on _example_ host:
+```
+$ ssh  -p ${PORT_ROUTE}  localhost  -D  ${PORT_PROXY}
+```
+ - test the connection from _example_ host:
+```
+$ curl  http://portquiz.net
+Port 80 test successful!
+Your IP: <IP address of example.com>
+
+$ curl  --socks5 localhost:${PORT_PROXY}  http://portquiz.net
+Port 80 test successful!
+Your IP: <IP address of NAT gateway>
+```
+
+
 
 
