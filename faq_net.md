@@ -106,7 +106,30 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ## SSH
 
 
-TBA
+### Direct SOCKS proxy
+
+ - pick port number for proxy and set it:
+```
+$ PORT=1234
+```
+ - set packet forwarding:
+```
+$ echo  1  |  sudo  tee  /proc/sys/net/ipv4/ip_forward
+```
+ - optionally, set `iptables` rules for _**IP**_ client address only:
+```
+$ sudo  iptables  -A INPUT  --src ${IP}  -p tcp  --dport ${PORT}  -j ACCEPT
+$ sudo  iptables  -A INPUT               -p tcp  --dport ${PORT}  -j REJECT
+```
+ - run `ssh` session:
+```
+$ ssh  -N  -D  0.0.0.0:${PORT}  localhost
+```
+ - optionally, to get _IP_ address of a server:
+```
+$ curl  ifconfig.me
+```
+ - set web proxy setting in browser/environment on client IP as `IP/HOSTNAME:PORT`
 
 
 
