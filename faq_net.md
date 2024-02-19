@@ -1,6 +1,8 @@
 # GNULinux network configuration notes
 
 
+
+
 ## Basic status
 
 
