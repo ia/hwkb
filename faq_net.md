@@ -168,5 +168,19 @@ Your IP: <IP address of NAT gateway>
 ```
 
 
+### Reverse SSH tunnel
+
+ - pick port number for tunnel and set it:
+```
+$ PORT_TUNNEL=4321
+```
+ - run `ssh` session on _NAT gateway_ host:
+```
+$ ssh  -N  -R  ${PORT_TUNNEL}:localhost:22  user@example.com  -p 22
+```
+ - run `ssh` client connecting back to _NAT gateway_ host from _example_ host:
+```
+$ ssh  client@localhost  -p ${PORT_TUNNEL}
+```
 
 
