@@ -112,6 +112,33 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ## SSH
 
 
+### Permissions
+
+DRAFT
+config 600
+known_hosts 600
+.ssh directory: 700 (drwx------)
+public key (.pub file): 644 (-rw-r--r--)
+private key (id_rsa): 600 (-rw-------)
+lastly your home directory should not be writeable by the group or others (at most 755 (drwxr-xr-x)).
+
+Directory or File 	Man Page 	Recommended
+Permissions 	Mandatory
+Permissions
+~/.ssh/ 	There is no general requirement to keep the entire contents of this directory secret, but the recommended permissions are read/write/execute for the user, and not accessible by others. 	700 	
+~/.ssh/authorized_keys 	This file is not highly sensitive, but the recommended permissions are read/write for the user, and not accessible by others 	600 	
+~/.ssh/config 	Because of the potential for abuse, this file must have strict permissions: read/write for the user, and not writable by others. 		600
+~/.ssh/identity
+~/.ssh/id_dsa
+~/.ssh/id_rsa 	These files contain sensitive data and should be readable by the user but not accessible by others (read/write/execute) 		600
+~/.ssh/identity.pub
+~/.ssh/id_dsa.pub
+~/.ssh/id_rsa.pub 	Contains the public key for authentication. These files are not sensitive and can (but need not) be readable by anyone. 	644 	
+
+All the man page quotes are from http://linuxcommand.org/lc3_man_pages/ssh1.html
+https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
+
+
 ### Direct SOCKS proxy
 
  - pick port number for proxy and set it:
