@@ -115,12 +115,15 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ### Permissions
 
 DRAFT
-config 600
-known_hosts 600
-.ssh directory: 700 (drwx------)
-public key (.pub file): 644 (-rw-r--r--)
-private key (id_rsa): 600 (-rw-------)
-lastly your home directory should not be writeable by the group or others (at most 755 (drwxr-xr-x)).
+Permissions for files in `~/.ssh` directory:
+```
+drwxr-xr-x / 755  ..
+drwx------ / 700  .
+-rw------- / 600  config
+-rw------- / 600  known_hosts
+-rw------- / 600  *.priv
+-rw-r--r-- / 644  *.pub
+```
 
 Directory or File 	Man Page 	Recommended
 Permissions 	Mandatory
