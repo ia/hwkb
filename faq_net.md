@@ -114,7 +114,13 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 ### Common options
 
-TBA
+ - -C : enable data compression
+ - -f : run in background
+ - -N : do not execute [remote shell] command
+ - -n : disable reading from _STDIN_
+ - -q : enable quite output and show only fatal errors
+ - -T : disable pseudo-terminal allocation
+ - -D: [bind_host:]port
 
 
 ### Permissions
