@@ -233,7 +233,24 @@ As a quick'n'dirty solution:
 
 ### PAC
 
-TBA
+_Proxy Auto Configuration_ file is a special server-side file which allows redirecting client requests for particular hosts.
+To use this feature:
+ - create & put sample file like `inet.pac` to `www/html` directory on **server** with this content:
+```
+function FindProxyForURL(url, host) {
+	alert("url  = " + url);
+	alert("host = " + host);
+	if (
+		shExpMatch(host, "*test.org*")  ||
+		shExpMatch(host, "*example.com*")
+	) {
+		return "SOCKS host:port";
+	} else {
+		return "DIRECT";
+	}
+}
+```
+ - configure browser on client to use _proxy autoconfiguration_ and provide the setting line as `https://server/inet.pac`
 
 
 
