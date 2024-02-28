@@ -112,6 +112,11 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ## SSH
 
 
+### Common options
+
+TBA
+
+
 ### Permissions
 
 Permissions for files in `~/.ssh` directory[^perms]:
