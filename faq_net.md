@@ -223,9 +223,9 @@ TBA
 ### Network throughput test
 
 As a quick'n'dirty solution:
- - on **host**:
+ - on **server**:
    - install & run _any_ web server
-   - go to its `www` directory
+   - go to its `www/html` directory
    - run (tweak command for desirable size to test): `$ sudo  touch  file.bin  &&  sudo  truncate  -s 1TB  file.bin`
  - on **client**:
    - run: `$ wget  -v  -O /dev/null  http://host/1.tb`
