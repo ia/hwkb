@@ -199,7 +199,7 @@ $ ssh  client@localhost  -p ${PORT_TUNNEL}
 ```
 
 
-### Port access only
+### Port only access
 
 TBA
 
