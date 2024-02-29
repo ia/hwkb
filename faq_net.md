@@ -228,7 +228,7 @@ As a quick'n'dirty solution:
    - go to its `www/html` directory
    - run (tweak command for desirable size to test): `$ sudo  touch  file.bin  &&  sudo  truncate  -s 1TB  file.bin`
  - on **client**:
-   - run: `$ wget  -v  -O /dev/null  http://host/file.bin`
+   - run `$ wget  -v  -O /dev/null  https://server/file.bin` or `$ curl  -o /dev/null  http://server:8080/file.bin`
 
 
 ### PAC
