@@ -112,7 +112,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 ## SSH
 
 
-### Common options
+### Client common options
 
  - -C : enable data compression
  - -f : run in background
