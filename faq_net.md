@@ -226,7 +226,7 @@ As a quick'n'dirty solution:
  - on **server**:
    - install & run _any_ web server, i.e.: `$ python3.8  -m http.server  8080  -d www/html`
    - go to its `www/html` directory
-   - run (tweak command for desirable size to test): `$ sudo  touch  file.bin  &&  sudo  truncate  -s 1TB  file.bin`
+   - run (tweak command for desirable size to test): `$ sudo  touch  file.bin  &&  sudo  truncate  -s 1GB  file.bin`
  - on **client**:
    - run `$ wget  -v  -O /dev/null  https://server/file.bin` or `$ curl  -o /dev/null  http://server:8080/file.bin`
 
