@@ -140,6 +140,12 @@ drwx------ / 700  .
 
 ### Helpers
 
+#### ssh-keygen
+
+`$ ssh-keygen [-H] -F example.com`
+ -  **locally** detect fingerprint line for host `example.com` in `~/.ssh/known_hosts` config file and print it (if any)
+ - `-H`: hide the line number info
+
 #### ssh-keyscan
 
 `$ ssh-keyscan [-H] example.com`
