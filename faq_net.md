@@ -138,6 +138,15 @@ drwx------ / 700  .
 [^perms]: https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
 
 
+### Helpers
+
+#### ssh-keyscan
+
+`$ ssh-keyscan [-H] example.com`
+ - **remotely** scan host `example.com` for fingerprint line and print it (if any)
+ - `-H`: hash host name
+
+
 ### Direct SOCKS proxy
 
  - pick port number for proxy and set it:
