@@ -143,7 +143,7 @@ drwx------ / 700  .
 #### ssh-keygen
 
 `$ ssh-keygen [-H] -F example.com`
- -  **locally** detect fingerprint line for host `example.com` in `~/.ssh/known_hosts` config file and print it (if any)
+ -  **locally** detect fingerprint line for `example.com` host in `~/.ssh/known_hosts` config file and print it (if any)
  - `-H`: hide the line number info
 
 `$ ssh-keygen  -R  exampe.com
@@ -152,7 +152,7 @@ drwx------ / 700  .
 #### ssh-keyscan
 
 `$ ssh-keyscan [-H] example.com`
- - **remotely** scan host `example.com` for fingerprint line and print it (if any)
+ - **remotely** scan `example.com` host for fingerprint line and print it (if any)
  - `-H`: hash host name
 
 
