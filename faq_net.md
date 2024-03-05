@@ -114,6 +114,8 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 ### Client common options
 
+#### Basic
+
  - -C : enable data compression
  - -f : run in background
  - -N : do not execute [remote shell] command
