@@ -116,6 +116,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 #### Basic
 
+ - `-i` : /path/to/private/key
  - `-C` : enable data compression
  - `-f` : run in background
  - `-N` : do not execute [remote shell] command
