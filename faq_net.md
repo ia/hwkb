@@ -127,7 +127,8 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 #### Advanced
 
- - `-o PubkeyAuthentication=` : `yes`/`no` - use keys' pair authentication method
+ - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
+ - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
 
 
 ### Permissions
