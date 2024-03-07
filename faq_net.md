@@ -239,7 +239,32 @@ $ ssh  client@localhost  -p ${PORT_TUNNEL}
 
 ### Port only access
 
-TBA
+DRAFT
+
+ - add user: `$ sudo  useradd  -m  mysshuser`
+ - set password
+ - populate .ssh & set permissions
+ - add section to sshd:
+```
+AllowUsers mysshuser
+
+Match User mysshuser
+	AllowTcpForwarding yes
+	PermitTunnel yes
+	GatewayPorts yes
+	AllowAgentForwarding no
+	PermitOpen localhost:8080
+	ForceCommand echo 'No no no!'
+```
+ - restart sshd and test local ssh login using keys: `$ sudo  service  ssh  restart ; ssh  mysshuser@localhost  -i /home/mysshuser/.ssh/id_rsa`
+ - edit etc/passwd to set bin/false
+```
+mysshuser:...:/bin/false
+```
+ - edit etc/shadow to disable password
+```
+mysshuser:!:1...`
+```
 
 
 
