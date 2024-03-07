@@ -125,7 +125,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
  - `-T` : disable pseudo-terminal allocation
  - `-D` : [bind_host:]port
 
-#### Advanced
+#### Extended
 
  - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
  - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
