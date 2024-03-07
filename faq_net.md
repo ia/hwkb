@@ -129,6 +129,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
  - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
  - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
+ - `-o ServerAliveInterval=     ` : `N` - `N` _seconds_ keep-alive _"heart beat"_
 
 
 ### Permissions
