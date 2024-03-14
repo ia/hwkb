@@ -129,7 +129,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
  - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
  - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
- - `-o ServerAliveInterval=     ` : `N` - `N` _seconds_ keep-alive _"heart beat"_
+ - `-o ServerAliveInterval=     ` : `N`        - use `N` _seconds_ keep-alive _"heart beat"_
  - `-o StrictHostKeyChecking=   ` : `yes`/`no` - use interactive request (`yes`) or just add host to `known_hosts` (`no`)
 
 
