@@ -132,6 +132,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
  - `-o StrictHostKeyChecking=   ` : `yes`/`no` - use interactive request (`yes`) or just add host to `known_hosts` (`no`)
  - `-o IdentityFile=            ` : `priv key` - use file as private key to connect (same as `-i`)
  - `-o ServerAliveInterval=     ` : `N`        - use `N` _seconds_ keep-alive _"heart beat"_
+ - `-o ConnectTimeout=          ` : `N`        - use `N` _seconds_ as timeout during connection
 
 
 ### Permissions
