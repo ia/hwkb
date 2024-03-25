@@ -135,6 +135,41 @@ $ git  submodule  init
 ```
 
 
+## fix submodule update:
+
+ - for the situation with a submodule like this one:
+```
+$ git  status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   PATH/TO/LOCAL/SUBMODULE/IN/REPO (new commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+$ git  diff
+
+diff --git a/PATH/TO/LOCAL/SUBMODULE/IN/REPO b/PATH/TO/LOCAL/SUBMODULE/IN/REPO
+index SHA_N..SHA_M X
+--- a/PATH/TO/LOCAL/SUBMODULE/IN/REPO
++++ b/PATH/TO/LOCAL/SUBMODULE/IN/REPO
+@@ -1 +1 @@
+-Subproject commit SHA_OLD
++Subproject commit SHA_NEW
+```
+
+ - run:
+```
+$ git  submodule  update  --recursive  PATH/TO/LOCAL/SUBMODULE/IN/REPO
+```
+
+
 
 
 # Management
