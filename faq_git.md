@@ -334,7 +334,26 @@ git commit -m "Merge from upstream to forked wiki"
 
 
 ## Git meta info for GitHub Actions
-TBA
+If `.github/workflows/push.yml` is being used for _CI/CD_ purposes,
+then during checkout on GitHub infrastructure
+a git repo will be in detached state. To deal with this,
+add sub-sections like these into `steps` section:
+```
+      - ...
+
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-tags: true
+          fetch-depth: 0
+
+      - name: Set git meta info
+        run: echo "GITHUB_CI_PR_SHA=${{github.event.pull_request.head.sha}}" >> "${GITHUB_ENV}"
+
+      - ...
+```
+So after that, submodules, tags & full commit history will be available during build/test/etc,
+and shell environment variable `"${GITHUB_CI_PR_SHA}"` will be holding the full actual latest SHA ID commit.
 
 
 
