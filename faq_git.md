@@ -257,7 +257,10 @@ $ git  log  --oneline  main..branch  --names-only
 
 
 ## editor
-TBA: shell command
+  * using shell command:
+```
+git config --global core.editor COMMAND
+```
   * add to `core` section of `~/.gitconfig` file:
 ```
 [core]
