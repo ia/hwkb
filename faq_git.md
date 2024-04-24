@@ -259,7 +259,7 @@ $ git  log  --oneline  main..branch  --names-only
 ## editor
   * using shell command:
 ```
-git config --global core.editor COMMAND
+git  config  --global  core.editor  COMMAND
 ```
   * add to `core` section of `~/.gitconfig` file:
 ```
