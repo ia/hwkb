@@ -268,9 +268,9 @@ TBA: shell command
 ## diff tool
   * using shell commands:
 ```
-git  config  --global  diff.tool   COMMAND
-git  config  --global  merge.tool  COMMAND
-git  config  --global  --add  difftool.prompt  false
+$ git  config  --global  diff.tool   COMMAND
+$ git  config  --global  merge.tool  COMMAND
+$ git  config  --global  --add  difftool.prompt  false
 ```
   * using config: add to `diff` section of `~/.gitconfig` file:
 ```
