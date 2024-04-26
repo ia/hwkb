@@ -276,7 +276,7 @@ mysshuser:!:1...`
  - configure authentication setup:
    - run: `$ google-authenticator`
    - `make tokens to be time-based?  y`
-   - scan QR code using TOTP app like _Google Authenticator_ or _FreeOTP_
+   - scan QR code using _TOTP_ app like _Google Authenticator_ or _FreeOTP_
    - enter _TOTP_ code from app to terminal when requested
    - `update your config file?       y`
    - `disallow multiple uses?        y`
