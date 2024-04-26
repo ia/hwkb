@@ -278,10 +278,11 @@ mysshuser:!:1...`
    - `make tokens to be time-based?  y`
    - scan QR code using _TOTP_ app like _Google Authenticator_ or _FreeOTP_
    - enter _TOTP_ code from app to terminal when requested
-   - `update your config file?       y`
-   - `disallow multiple uses?        y`
-   - `increase the login window?     n`
-   - `enable login rate-limit?       y`
+   - provide the answers to configure _TOTP_:
+     - `update your config file?       y`
+     - `disallow multiple uses?        y`
+     - `increase the login window?     n`
+     - `enable login rate-limit?       y`
  - configure `sshd` for _TOTP_ setup:
    - `/etc/ssh/sshd_config`: add/enable `UsePAM  yes` and `ChallengeResponseAuthentication  yes`
    - `/etc/pam.d/sshd`: add/enable `auth  required  pam_google_authenticator.so` right after `@include common-auth` block
