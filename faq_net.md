@@ -272,7 +272,20 @@ mysshuser:!:1...`
 
 ### 2FA TOTP authentication
 
-TBA
+ - install required package: `$ sudo  apt  install  libpam-google-authenticator`
+ - configure authentication setup:
+   - run: `$ google-authenticator`
+   - `make tokens to be time-based?  y`
+   - scan QR code using TOTP app like _Google Authenticator_ or _FreeOTP_
+   - enter _TOTP_ code from app to terminal when requested
+   - `update your config file?       y`
+   - `disallow multiple uses?        y`
+   - `increase the login window?     n`
+   - `enable login rate-limit?       y`
+ - configure `sshd` for _TOTP_ setup:
+   - `/etc/ssh/sshd_config`: add/enable `UsePAM  yes` and `ChallengeResponseAuthentication  yes`
+   - `/etc/pam.d/sshd`: add/enable `auth  required  pam_google_authenticator.so` right after `@include common-auth` block
+   - optionally: add `nullok` option for the line `auth  required  pam_google_authenticator.so` to disable _TOTP_ for users without _TOTP_ configured
 
 
 
