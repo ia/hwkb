@@ -288,7 +288,8 @@ mysshuser:!:1...`
    - `/etc/pam.d/sshd`: add/enable `auth  required  pam_google_authenticator.so` right after `@include common-auth` block
    - optionally: add `nullok` option for the line `auth  required  pam_google_authenticator.so` to disable _TOTP_ for users without _TOTP_ configured
  - now this configuration will be working in the following way:
-   - TBA
+   - if login user uses valid & authorized _ssh_ key file, then _sshd_ will accept connection unconditionaly
+   - if login user uses valid password, then _sshd_ will ask for password first and for _TOTP_ verification code right after password before accepting connection
 
 
 
