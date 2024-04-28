@@ -287,6 +287,8 @@ mysshuser:!:1...`
    - `/etc/ssh/sshd_config`: add/enable `UsePAM  yes` and `ChallengeResponseAuthentication  yes`
    - `/etc/pam.d/sshd`: add/enable `auth  required  pam_google_authenticator.so` right after `@include common-auth` block
    - optionally: add `nullok` option for the line `auth  required  pam_google_authenticator.so` to disable _TOTP_ for users without _TOTP_ configured
+ - now this configuration will be working in the following way:
+   - TBA
 
 
 
