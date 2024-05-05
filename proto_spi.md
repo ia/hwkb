@@ -206,6 +206,7 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
  - [`binwalk`](https://github.com/ReFirmLabs/binwalk)
  - [`fwtools`](https://github.com/flammit/fwtools)
  - [`UEFITool`](https://github.com/LongSoft/UEFITool)
+ - [`Firmware_extractor`](https://github.com/erfanoabdi/Firmware_extractor)
 
 
 
