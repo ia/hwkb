@@ -204,6 +204,7 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
  - [`hexdump`](http://man7.org/linux/man-pages/man1/hexdump.1.html)
  - [`veles`](https://github.com/codilime/veles)
  - [`binwalk`](https://github.com/ReFirmLabs/binwalk)
+ - [`unblob`](https://github.com/onekey-sec/unblob)
  - [`fwtools`](https://github.com/flammit/fwtools)
  - [`UEFITool`](https://github.com/LongSoft/UEFITool)
  - [`Firmware_extractor`](https://github.com/erfanoabdi/Firmware_extractor)
