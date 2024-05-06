@@ -207,6 +207,7 @@ $ sudo flashrom -p HW_PROGRAMMER_NAME[:PARAMETERS] -r OUTPUT_FILE
  - [`unblob`](https://github.com/onekey-sec/unblob)
  - [`fwtools`](https://github.com/flammit/fwtools)
  - [`UEFITool`](https://github.com/LongSoft/UEFITool)
+ - [`Fiano`](https://github.com/linuxboot/fiano)
  - [`Firmware_extractor`](https://github.com/erfanoabdi/Firmware_extractor)
 
 
