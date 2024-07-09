@@ -29,6 +29,13 @@ TBA
 
 
 
+## Mini DC-DC converter
+
+![Mini DC-DC converter](../master/resources/boards/mini-dcdc.png)  
+
+
+
+
 ## TTP223-based touch sensor (w/o I/O line)
 
 ![TTP223-based touch sensor board](../master/resources/boards/ttp223-touch.png)  
