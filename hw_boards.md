@@ -34,6 +34,21 @@ TBA
 ![Mini DC-DC converter](../master/resources/boards/mini-dcdc.png)  
 
 
+### Description
+
+TBA
+
+
+### Notes
+
+TBA
+
+
+### Applications
+
+TBA
+
+
 
 
 ## TTP223-based touch sensor (w/o I/O line)
