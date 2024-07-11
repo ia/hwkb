@@ -36,7 +36,12 @@ TBA
 
 ### Description
 
-TBA
+|   pin   |       info       |
+|:-------:|:-----------------|
+|  `VO+`  |  output voltage  |
+|  `GND`  |  common ground   |
+|  `IN+`  |  input voltage   |
+|  `EN`   |  enabled control |
 
 
 ### Notes
