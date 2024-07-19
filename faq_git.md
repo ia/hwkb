@@ -19,8 +19,11 @@ $ git  clone  --recursive  REPO_ADDRESS
 
 
 ## duplicate repo with its full meta info
-
-TBA
+```
+$ git  clone  --bare  REPO_ADDRESS_SRC
+$ cd  SRC
+$ git  push  --mirror  REPO_ADDRESS_DST
+```
 
 
 ## update cloned repo:
