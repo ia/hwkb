@@ -18,12 +18,14 @@ $ git  clone  --recursive  REPO_ADDRESS
   * `--recursive` - option to download submodules (nested git repos included in a repo)
 
 
-## duplicate repo with its full meta info
+## duplicate repo with its full meta info:
 ```
 $ git  clone  --bare  REPO_ADDRESS_SRC
 $ cd  SRC
 $ git  push  --mirror  REPO_ADDRESS_DST
 ```
+  * REPO_ADDRESS_SRC - url/path to source git repo
+  * REPO_ADDRESS_DST - url/path to destination git repo (must exist but without any commit nor branch)
 
 
 ## update cloned repo:
