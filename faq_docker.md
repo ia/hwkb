@@ -10,7 +10,9 @@ TBA
 # Basics
 
 
-## start container:
+## start container
+
+### fire up & running:
 ```
 $ docker-compse  up
 ```
