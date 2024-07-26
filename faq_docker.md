@@ -11,7 +11,8 @@ TBA
 
 
 ## start container:
-
-TBA
+```
+$ docker-compse  up
+```
 
 
