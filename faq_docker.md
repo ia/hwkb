@@ -14,7 +14,7 @@ TBA
 
 ### fire up & running:
 ```
-$ docker-compse  up
+$ docker-compose  up
 ```
 
 ### providing config:
