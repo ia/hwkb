@@ -18,7 +18,8 @@ $ docker-compose  up
 ```
 
 ### providing config:
-
-TBA
+```
+$ docker-compose  -f /path/to/docker.yml  run  --rm  builder
+```
 
 
