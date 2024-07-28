@@ -26,7 +26,8 @@ $ docker-compose  -f /path/to/docker.yml  run  --rm  builder
 ## delete
 
 ### clean build cache objects:
-
-TBA
+```
+$ docker  system  prune  --filter label=LABEL_NAME  --force
+```
 
 
