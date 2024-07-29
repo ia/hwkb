@@ -27,12 +27,12 @@ $ docker-compose  -f /path/to/docker.yml  run  --rm  builder
 
 ### clean build cache objects:
 ```
-$ docker  system  prune  --filter label=LABEL_NAME  --force
+$ docker  system  prune  --filter label=CONTAINER_LABEL_NAME  --force
 ```
 
 ### remove image container(s):
 ```
-$ docker  rmi  LABEL_NAME
+$ docker  rmi  CONTAINER_LABEL_NAME
 ```
 
 
