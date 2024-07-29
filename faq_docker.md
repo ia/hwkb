@@ -31,7 +31,8 @@ $ docker  system  prune  --filter label=LABEL_NAME  --force
 ```
 
 ### remove image container(s):
-
-TBA
+```
+$ docker  rmi  LABEL_NAME
+```
 
 
