@@ -28,7 +28,7 @@ TBA
 
 ### Applications
 
-TBA
+ - _USB-C_-_DC_ converter with configurable voltage
 
 
 
