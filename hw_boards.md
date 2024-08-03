@@ -55,7 +55,7 @@ TBA
 
 ### Applications
 
-TBA
+ - _DC_-_DC_ converter with configurable voltage
 
 
 
