@@ -24,8 +24,8 @@ $ git  clone  --bare  REPO_ADDRESS_SRC
 $ cd  SRC
 $ git  push  --mirror  REPO_ADDRESS_DST
 ```
-  * REPO_ADDRESS_SRC - url/path to source git repo
-  * REPO_ADDRESS_DST - url/path to destination git repo (must exist but without any commit nor branch)
+  * `REPO_ADDRESS_SRC` - url/path to source git repo
+  * `REPO_ADDRESS_DST` - url/path to destination git repo (must exist but without any commit nor branch)
 
 
 ## update cloned repo:
