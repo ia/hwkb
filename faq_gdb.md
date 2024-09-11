@@ -11,7 +11,7 @@
 $ gdb  -q
 ```
 Alternatives:
-
+  - `--quiet`
 
 
 
