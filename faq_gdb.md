@@ -14,6 +14,8 @@ Alternatives:
   - `--quiet`
   - `--silent`
 
+### Run gdb in batch/script mode:
+
 
 
 TBA
