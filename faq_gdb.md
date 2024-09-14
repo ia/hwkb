@@ -15,7 +15,9 @@ Alternatives:
   - `--silent`
 
 ### Run gdb in batch/script mode:
-
+```
+$ gdb  --batch
+```
 
 
 TBA
