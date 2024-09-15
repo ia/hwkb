@@ -14,7 +14,7 @@ Alternatives:
   - `--quiet`
   - `--silent`
 
-### Run gdb in batch/script mode:
+### Run gdb in batch/script mode and exit:
 ```
 $ gdb  --batch
 ```
