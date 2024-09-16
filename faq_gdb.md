@@ -19,6 +19,8 @@ Alternatives:
 $ gdb  --batch
 ```
 
+### Execute gdb command inside running instance:
+
 
 TBA
 
