@@ -20,6 +20,9 @@ $ gdb  --batch
 ```
 
 ### Execute gdb command inside running instance:
+```
+$ gdb  -ex  command
+```
 
 
 TBA
