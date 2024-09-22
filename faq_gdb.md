@@ -30,6 +30,8 @@ $ gdb  -ex  command
 
 ### File config control
 
+  - `--nh` - do not process `~/.gdbinit` config file
+
 
 TBA
 
