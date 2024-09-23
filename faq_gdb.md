@@ -31,6 +31,7 @@ $ gdb  -ex  command
 ### File config control
 
   - `--nh` - do not process `~/.gdbinit` config file
+  - `--nx` - do not process any `.gdbinit` config file
 
 
 TBA
