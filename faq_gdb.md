@@ -34,5 +34,8 @@ $ gdb  -ex  command
   - `--nx` - do not process any `.gdbinit` config file
 
 
+## Session commands
+
+
 TBA
 
