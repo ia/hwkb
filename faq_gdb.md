@@ -43,8 +43,10 @@ $ gdb  -ex  command
 
 ## One-liners
 
-
-
+### Start gdb in silent batch mode with app binary, execute 'run' command and exit on binary execution complete:
+```
+$ gdb  --silent  --batch  app   -ex run
+```
 
 TBA
 
