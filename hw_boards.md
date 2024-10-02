@@ -14,7 +14,7 @@ This document describes ready-to-use PCBs which are widely available to apply in
 
 ### Description
 
-| switch |  3V |  9V | 12V | 15V | 20V |
+| switch |  5V |  9V | 12V | 15V | 20V |
 |:------:|:---:|:---:|:---:|:---:|:---:|
 |  `S1`  |  0  |  1  |  1  |  0  |  0  |
 |  `S2`  |  0  |  0  |  1  |  1  |  1  |
