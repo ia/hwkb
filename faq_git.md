@@ -197,8 +197,8 @@ $ git  checkout  --  FILE_NAME
 ```
 
 
-## revert a commit:
-  * revert a commit by creating additional commit in history:
+## revert commits:
+  * revert **changes** from a **particular commit only** by creating additional commit in git history:
 ```
 $ git  revert  SHA_ID
 ```
