@@ -203,9 +203,9 @@ $ git  checkout  --  FILE_NAME
 $ git  revert  SHA_ID
 ```
 
-  * revert a commit by **modifying** commit history:
+  * revert _N_ commits (i.e., in case of _1_ the latest commit only) by **modifying commit history** (rewind back git history by _N_ commits basically):
 ```
-$ git  reset  --hard HEAD~1
+$ git  reset  --hard HEAD~N
 ```
 
 
