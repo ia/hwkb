@@ -11,6 +11,10 @@ Links to useful resources related to software
 
 ### Malware detection
 
+- [VirusTotal](https://www.virustotal.com/gui/home/upload) to upload & scan files online
+
+
+
 
 TBA
 
