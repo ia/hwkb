@@ -14,6 +14,8 @@ Links to useful resources related to software
 - [VirusTotal](https://www.virustotal.com/gui/home/upload) to upload & scan files online
 
 
+### Binary reverse
+
 
 
 TBA
