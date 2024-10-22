@@ -16,6 +16,7 @@ Links to useful resources related to software
 
 ### Binary reverse
 
+- [Decompiler Explorer](https://dogbolt.org) to reverse binaries online
 
 
 TBA
