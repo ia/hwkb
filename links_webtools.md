@@ -19,5 +19,8 @@ Links to useful resources related to software
 - [Decompiler Explorer](https://dogbolt.org) to reverse binaries online
 
 
+### Compiler output
+
+
 TBA
 
