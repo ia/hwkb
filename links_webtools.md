@@ -24,5 +24,9 @@ Links to useful resources related to software.
 - [Compiler Explorer](https://godbolt.org) to check compilers' output
 
 
+
+
+## Hardware
+
 TBA
 
