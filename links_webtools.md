@@ -27,6 +27,8 @@ Links to useful resources related to software.
 
 
 ## Hardware
+Links to useful resources related to hardware.
+
 
 TBA
 
