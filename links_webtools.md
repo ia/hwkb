@@ -31,7 +31,7 @@ Links to useful resources related to hardware.
 
 
 ### DEVINT
-
+Device OSINT resources.
 
 TBA
 
