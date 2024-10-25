@@ -38,5 +38,7 @@ Device OSINT resources.
 - [Official site](https://www.fcc.gov/oet/ea/fccid)
 - [Searchable FCC ID Database](https://fccid.io)
 
+#### Periphery
+
 TBA
 
