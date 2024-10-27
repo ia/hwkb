@@ -40,6 +40,7 @@ Device OSINT resources.
 
 #### Periphery
 
+- [Full IEEE OUI MAC list](https://standards-oui.ieee.org/oui/oui.txt)
 - [MAC Address Search](https://mac.lc)
 
 
