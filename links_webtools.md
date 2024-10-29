@@ -42,6 +42,7 @@ Device OSINT resources.
 
 - [Full IEEE OUI MAC list](https://standards-oui.ieee.org/oui/oui.txt)
 - [MAC Address Search](https://mac.lc)
+- [MAC Address Lookup](https://maclookup.app)
 
 
 TBA
