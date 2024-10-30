@@ -44,6 +44,7 @@ Device OSINT resources.
 - [MAC Address Search](https://mac.lc)
 - [MAC Address Lookup](https://maclookup.app)
 - [USB ID Database](https://the-sz.com/products/usbid)
+- [All USB Vendors](https://devicehunt.com/all-usb-vendors)
 
 
 TBA
