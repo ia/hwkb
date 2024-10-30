@@ -48,6 +48,7 @@ Device OSINT resources.
 - [All PCI Vendors](https://devicehunt.com/all-pci-vendors)
 - [Searchable database of PCI and USB devices](https://devicehunt.com)
 
+#### Wikis about consumer hardware
 
 TBA
 
