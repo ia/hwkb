@@ -46,6 +46,7 @@ Device OSINT resources.
 - [USB ID Database](https://the-sz.com/products/usbid)
 - [All USB Vendors](https://devicehunt.com/all-usb-vendors)
 - [All PCI Vendors](https://devicehunt.com/all-pci-vendors)
+- [Searchable database of PCI and USB devices](https://devicehunt.com)
 
 
 TBA
