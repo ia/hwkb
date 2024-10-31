@@ -50,5 +50,7 @@ Device OSINT resources.
 
 #### Wikis about consumer hardware
 
+- [WikiDevi database for computer hardware](https://wikidevi.wi-cat.ru)
+
 TBA
 
