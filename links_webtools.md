@@ -52,6 +52,7 @@ Device OSINT resources.
 
 - [WikiDevi database for computer hardware](https://wikidevi.wi-cat.ru)
 - [exploitee.rs wiki](https://www.exploitee.rs)
+- [ConsoleMods.org](https://consolemods.org)
 - [PS Dev Wiki](https://www.psdevwiki.com)
 - [Embedded Linux Wiki](https://elinux.org)
 
