@@ -50,6 +50,7 @@ Device OSINT resources.
 
 #### Wikis about consumer hardware
 
+- [OpenWRT](https://openwrt.org/docs/start)
 - [WikiDevi database for computer hardware](https://wikidevi.wi-cat.ru)
 - [exploitee.rs wiki](https://www.exploitee.rs)
 - [ConsoleMods.org](https://consolemods.org)
