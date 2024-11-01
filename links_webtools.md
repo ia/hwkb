@@ -55,6 +55,7 @@ Device OSINT resources.
 - [ConsoleMods.org](https://consolemods.org)
 - [PS Dev Wiki](https://www.psdevwiki.com)
 - [Embedded Linux Wiki](https://elinux.org)
+- [OSDev.org](https://wiki.osdev.org)
 
 TBA
 
