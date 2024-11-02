@@ -53,12 +53,14 @@ Device OSINT resources.
 - [OpenWRT](https://openwrt.org/docs/start)
   - [hardware index](https://openwrt.org/docs/techref/hardware/index)
   - [technical reference](https://openwrt.org/docs/techref/start)
+- [LineageOS](https://wiki.lineageos.org)
 - [WikiDevi database for computer hardware](https://wikidevi.wi-cat.ru)
 - [exploitee.rs wiki](https://www.exploitee.rs)
 - [ConsoleMods.org](https://consolemods.org)
 - [PS Dev Wiki](https://www.psdevwiki.com)
 - [Embedded Linux Wiki](https://elinux.org)
 - [OSDev.org](https://wiki.osdev.org)
+- 
 
 TBA
 
