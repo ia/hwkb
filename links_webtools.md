@@ -52,6 +52,7 @@ Device OSINT resources.
 
 - [OpenWRT](https://openwrt.org/docs/start)
   - [hardware index](https://openwrt.org/docs/techref/hardware/index)
+  - [technical reference](https://openwrt.org/docs/techref/start)
 - [WikiDevi database for computer hardware](https://wikidevi.wi-cat.ru)
 - [exploitee.rs wiki](https://www.exploitee.rs)
 - [ConsoleMods.org](https://consolemods.org)
