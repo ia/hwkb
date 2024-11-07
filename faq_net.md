@@ -137,6 +137,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 [^warning]: set `-o UserKnownHostsFile=/dev/null` only if you're fully aware what & why you're doing this exactly since this is **very insecure**.
 
+
 ### Permissions
 
 Permissions for files in `~/.ssh` directory[^perms]:
