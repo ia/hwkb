@@ -135,7 +135,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
  - `-o ServerAliveInterval=     ` : `N`        - use `N` _seconds_ keep-alive _"heart beat"_
  - `-o ConnectTimeout=          ` : `N`        - use `N` _seconds_ as timeout during connection
 
-[^warning]: set `-o UserKnownHostsFile=/dev/null` only if you're fully aware what & why you're doing this exactly since this is **very insecure**.
+[^warning]: set `-o UserKnownHostsFile=/dev/null` only if you're fully aware of what & why you're doing this exactly since this is **VERY INSECURE**.
 
 
 ### Permissions
