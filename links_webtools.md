@@ -24,6 +24,11 @@ Links to useful resources related to software.
 - [Compiler Explorer](https://godbolt.org) to check compilers' output
 
 
+### Hash tools
+
+TBA
+
+
 
 
 ## Hardware
