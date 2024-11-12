@@ -26,7 +26,7 @@ Links to useful resources related to software.
 
 ### Hash tools
 
-TBA
+- [Hash Decryptor](https://hashes.com/en/decrypt/hash)
 
 
 
