@@ -27,7 +27,7 @@ Links to useful resources related to software.
 ### Hash tools
 
 - [Hash Decryptor](https://hashes.com/en/decrypt/hash)
-
+- [Hash Identifier](https://hashes.com/en/tools/hash_identifier)
 
 
 
