@@ -72,6 +72,7 @@ Device OSINT resources.
 #### Datasheets
 
 - [STM32 MCUs](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/documentation.html)
+- [nRF MCUs](https://docs.nordicsemi.com)
 
 TBA
 
