@@ -10,7 +10,7 @@ TBA
 # Basics
 
 
-## start container
+## start
 
 ### fire up & running:
 ```
