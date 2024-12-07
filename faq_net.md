@@ -127,7 +127,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 #### Extended
 
- - `-o HostKeyAlgorithms=         : `opts`     - use the host key algorithms that the client wants to use in order of preference (use `ssh -Q key` to check available _opts_)
+ - `-o HostKeyAlgorithms=         : `opts`     - use the host key algorithms that the client wants to use in order of preference (use `ssh -Q key` to check available _opts_)[^hostkey]
  - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
  - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
  - `-o StrictHostKeyChecking=   ` : `yes`/`no` - use interactive request (`yes`) or just add host to `known_hosts` (`no`)
@@ -137,6 +137,8 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
  - `-o ConnectTimeout=          ` : `N`        - use `N` _seconds_ as timeout during connection
 
 [^warning]: set `-o UserKnownHostsFile=/dev/null` only if you're fully aware of what & why you're doing this exactly since this is **VERY INSECURE**.
+
+[^hostkey]: this option is useful when the error message like _"Unable to neotiate with HOST port NUMBER: no matching host key type found. Their offer: [...]" displayed_.
 
 
 ### Permissions
