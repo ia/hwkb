@@ -127,7 +127,7 @@ $ sudo  iptables  -I OUTPUT  -p ${PROTO}  --sport ${PORT}  -j ACCEPT
 
 #### Extended
 
- - `-o HostKeyAlgorithms=         : `opts`     - use the host key algorithms that the client wants to use in order of preference
+ - `-o HostKeyAlgorithms=         : `opts`     - use the host key algorithms that the client wants to use in order of preference (use `ssh -Q key` to check available _opts_)
  - `-o PubkeyAuthentication=    ` : `yes`/`no` - use keys' pair authentication method
  - `-o PasswordAuthentication=  ` : `yes`/`no` - use password authentication method
  - `-o StrictHostKeyChecking=   ` : `yes`/`no` - use interactive request (`yes`) or just add host to `known_hosts` (`no`)
