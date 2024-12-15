@@ -5,8 +5,8 @@ This note should be applicable to any modern GNU/Linux distro.
 
 # Basic commands to control & monitor `udev`
 
-- apply rules & restart udev & trigger new rules:  
-`$ sudo  udevadm  control --reload-rules  &&  sudo  udevadm  trigger`
+- update hwdb configuration & apply updated rules & restart udev & trigger new rules:  
+`$ sudo  udevadm  hwdb  --update  &&  sudo  udevadm  control --reload-rules  &&  sudo  udevadm  trigger`
 
 - monitor events in real time:  
 `$ udevadm  monitor  --udev  [--environment]`
