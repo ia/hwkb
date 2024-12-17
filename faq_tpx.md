@@ -18,7 +18,8 @@ tools to detect key codes:
 - xev
 - sudo evtest
 
-
+udev command to apply changes:
+TBA
 
 
 /etc/dbus-1/system.d/org.freedesktop.UPower.conf
@@ -37,4 +38,5 @@ backlight keyboard control
 0 //   0%
 1 //  50%
 2 // 100%
+
 
