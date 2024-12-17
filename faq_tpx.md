@@ -33,5 +33,8 @@ tools to detect key codes:
 
 
 backlight keyboard control
-TBA
+/sys/devices/platform/thinkpad_acpi/leds/tpacpi::kbd_backlight/brightness
+0 //   0%
+1 //  50%
+2 // 100%
 
