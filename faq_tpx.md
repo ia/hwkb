@@ -14,8 +14,9 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO:pn*:pvrThinkPadX240:*
 # https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb
 ```
 
-xev
-sudo evtest
+tools to detect key codes:
+- xev
+- sudo evtest
 
 
 
