@@ -14,6 +14,11 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO:pn*:pvrThinkPadX240:*
 # https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb
 ```
 
+xev
+sudo evtest
+
+
+
 
 /etc/dbus-1/system.d/org.freedesktop.UPower.conf
 
