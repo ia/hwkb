@@ -32,3 +32,6 @@ tools to detect key codes:
            send_interface="org.freedesktop.UPower.KbdBacklight"/>
 
 
+backlight keyboard control
+TBA
+
